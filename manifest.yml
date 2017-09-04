@@ -1,6 +1,6 @@
 applications:
 - path: .
-  memory: 256M
+  memory: 500M
   instances: 1
   domain: eu-gb.mybluemix.net
   name: Instantmortgage
