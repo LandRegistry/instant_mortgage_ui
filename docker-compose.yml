@@ -1,0 +1,20 @@
+version: '2.1'
+
+services:
+  dev:
+    container_name: instantmortgage
+    build:
+      context: .
+    volumes:
+      - .:/usr/src/app
+    ports:
+      - "9229:9229"
+      - "6001:6001"
+    environment:
+      REDIS_URL: 'redis://redis:6379'
+    links:
+      - redis
+
+  redis:
+    image: redis
+

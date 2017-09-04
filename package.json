@@ -6,11 +6,13 @@
 		"start": "node app.js"
 	},
 	"dependencies": {
-		"express": "4.15.x",
-		"cfenv": "1.0.x"
+		"@hmcts/look-and-feel": "^0.2.1",
+		"@hmcts/one-per-page": "^0.3.0",
+		"cfenv": "1.0.x",
+		"express": "4.15.x"
 	},
 	"repository": {},
 	"engines": {
 		"node": "6.x"
-	} 
+	}
 }
