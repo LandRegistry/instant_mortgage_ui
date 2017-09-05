@@ -5,13 +5,27 @@
 </ion-header>
 
 <ion-content padding>
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+  <h2>Instant Mortgage</h2>
+<ion-list>
+
+  <ion-item>
+  <ion-label>9, Cotham Lawn House, <BR>  Cotham Lawn Road <BR> Cotham <BR> Bristol, <BR> BS6 6DU
+  </ion-label>
+  </ion-item>
+    <ion-item>
+  <ion-label> Cost: £505,000<BR><BR></ion-label>
+  <!--ion-label> UPRN: 79984</label-->
+  </ion-item>
+  <ion-item>
+    <ion-label stacked>How much do you want to borrow?</ion-label>
+    <ion-input type="text" [(ngModel)]="loan_amount"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label stacked>How many years would you like to borrow for?</ion-label>
+    <ion-input type="text" [(ngModel)]="term"></ion-input>
+  </ion-item>
+</ion-list>
+
+  <button ion-button full (click)="nextButton($event)">Next</button>
 </ion-content>

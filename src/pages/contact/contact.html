@@ -1,17 +1,93 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Contact
+      Results
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content>
   <ion-list>
-    <ion-list-header>Follow us on Twitter</ion-list-header>
+    <ion-list-header>Choose your mortgage offer</ion-list-header>
+<ion-list>
+  <ion-item-sliding>
     <ion-item>
-      <ion-icon name="ionic" item-left></ion-icon>
-      @ionicframework
+    <ion-thumbnail item-start>
+      <img src="../../assets/bankicon/halifax.png">
+    </ion-thumbnail>
+      <h2>Halifax 3 year Fixed Rate at 2.5%</h2>
+      <button ion-button clear item-end>View</button>
     </ion-item>
+    <ion-item-options side="right">
+      <button ion-button color="primary">
+        <ion-icon name="mail" (click)="approved($event)"></ion-icon>
+        Approve
+      </button>
+    </ion-item-options>
+  </ion-item-sliding>
+
+    <ion-item-sliding>
+  <ion-item>
+    <ion-thumbnail item-start>
+      <img src="../../assets/bankicon/nationwide.png">
+    </ion-thumbnail>
+    <h2>Nationwide 3 year Fixed Rate at 2%</h2>
+    <button ion-button clear item-end>View</button>
+  </ion-item>
+          <ion-item-options side="right">
+      <button ion-button color="primary">
+        <ion-icon name="mail" (click)="approved($event)"></ion-icon>
+        Approve
+      </button>
+    </ion-item-options>
+        </ion-item-sliding>
+
+      <ion-item-sliding>
+    <ion-item>
+    <ion-thumbnail item-start>
+      <img src="../../assets/bankicon/nationwide.png">
+    </ion-thumbnail>
+    <h2>Nationwide 3 year Variable Rate at 1.8%</h2>
+    <button ion-button clear item-end>View</button>
+  </ion-item>
+                  <ion-item-options side="right">
+      <button ion-button color="primary">
+        <ion-icon name="mail" (click)="approved($event)"></ion-icon>
+        Approve
+      </button>
+    </ion-item-options>
+  </ion-item-sliding>
+
+      <ion-item-sliding>
+    <ion-item>
+    <ion-thumbnail item-start>
+      <img src="../../assets/bankicon/santander.png">
+    </ion-thumbnail>
+    <h2>Santander 3 year Variable Rate at 2.0%</h2>
+    <button ion-button clear item-end>View</button>
+  </ion-item>
+                  <ion-item-options side="right">
+      <button ion-button color="primary">
+        <ion-icon name="mail" (click)="approved($event)"></ion-icon>
+        Approve
+      </button>
+    </ion-item-options>
+  </ion-item-sliding>
+  <ion-item-sliding>
+      <ion-item>
+    <ion-thumbnail item-start>
+      <img src="../../assets/bankicon/hsbc.png">
+    </ion-thumbnail>
+    <h2>HSBC 2 year Fixed Rate at 3.0%</h2>
+    <button ion-button clear item-end>View</button>
+  </ion-item>
+              <ion-item-options side="right">
+      <button ion-button color="primary">
+        <ion-icon name="mail" (click)="approved($event)"></ion-icon>
+        Approve
+      </button>
+    </ion-item-options>
+  </ion-item-sliding>
+</ion-list>
   </ion-list>
 </ion-content>

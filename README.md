@@ -1,13 +1,26 @@
-# Node.js Hello World Sample
+This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
 
-This application demonstrates a simple, reusable Node.js web application based on the Express framework.
+## How to use this template
 
-## Run the app locally
+*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
 
-1. [Install Node.js][]
-1. cd into this project's root directory
-1. Run `npm install` to install the app's dependencies
-1. Run `npm start` to start the app
-1. Access the running app in a browser at <http://localhost:6001>
+To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
 
-[Install Node.js]: https://nodejs.org/en/download/
+### With the Ionic CLI:
+
+Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
+
+```bash
+$ sudo npm install -g ionic cordova
+$ ionic start myTabs tabs
+```
+
+Then, to run it, cd into `myTabs` and run:
+
+```bash
+$ ionic cordova platform add ios
+$ ionic cordova run ios
+```
+
+Substitute ios for android if not on a Mac.
+

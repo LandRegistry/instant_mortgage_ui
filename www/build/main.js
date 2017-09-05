@@ -1,1 +1,461 @@
-webpackJsonp([0],{78:function(n,t){function e(n){return Promise.resolve().then(function(){throw new Error("Cannot find module '"+n+"'.")})}e.keys=function(){return[]},e.resolve=e,n.exports=e,e.id=78},95:function(n,t){function e(n){return Promise.resolve().then(function(){throw new Error("Cannot find module '"+n+"'.")})}e.keys=function(){return[]},e.resolve=e,n.exports=e,e.id=95},98:function(n,t,e){"use strict";function l(n){return u._22(0,[(n()(),u._4(0,null,null,2,"ion-nav",[],null,null,null,F.b,F.a)),u._3(4374528,null,0,H.a,[[2,N.a],[2,v.a],S.a,G.a,z.a,u.k,u.y,u.E,u.j,C.e,O.a,[2,U.a],E.a,u.l],{root:[0,"root"]},null),u._18(6144,null,B.a,null,[H.a]),(n()(),u._21(null,["\n"]))],function(n,t){n(t,1,0,t.component.rootPage)},null)}function _(n){return u._22(0,[(n()(),u._4(0,null,null,10,"ion-header",[],null,null,null,null,null)),u._3(16384,null,0,Z.a,[G.a,u.k,u.E,[2,N.a]],null,null),(n()(),u._21(null,["\n  "])),(n()(),u._4(0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,q.b,q.a)),u._3(49152,null,0,J.a,[S.a,[2,N.a],[2,v.a],G.a,u.k,u.E],null,null),(n()(),u._21(3,["\n    "])),(n()(),u._4(0,null,3,2,"ion-title",[],null,null,null,W.b,W.a)),u._3(49152,null,0,Y.a,[G.a,u.k,u.E,[2,Q.a],[2,J.a]],null,null),(n()(),u._21(0,["\n      About\n    "])),(n()(),u._21(3,["\n  "])),(n()(),u._21(null,["\n"])),(n()(),u._21(null,["\n\n"])),(n()(),u._4(0,null,null,2,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,X.b,X.a)),u._3(4374528,null,0,$.a,[G.a,z.a,E.a,u.k,u.E,S.a,w.a,u.y,[2,N.a],[2,v.a]],null,null),(n()(),u._21(1,["\n\n"])),(n()(),u._21(null,["\n"]))],null,function(n,t){n(t,3,0,u._16(t,4)._hidden,u._16(t,4)._sbPadding),n(t,12,0,u._16(t,13).statusbarPadding,u._16(t,13)._hasRefresher)})}function i(n){return u._22(0,[(n()(),u._4(0,null,null,10,"ion-header",[],null,null,null,null,null)),u._3(16384,null,0,Z.a,[G.a,u.k,u.E,[2,N.a]],null,null),(n()(),u._21(null,["\n  "])),(n()(),u._4(0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,q.b,q.a)),u._3(49152,null,0,J.a,[S.a,[2,N.a],[2,v.a],G.a,u.k,u.E],null,null),(n()(),u._21(3,["\n    "])),(n()(),u._4(0,null,3,2,"ion-title",[],null,null,null,W.b,W.a)),u._3(49152,null,0,Y.a,[G.a,u.k,u.E,[2,Q.a],[2,J.a]],null,null),(n()(),u._21(0,["\n      Contact\n    "])),(n()(),u._21(3,["\n  "])),(n()(),u._21(null,["\n"])),(n()(),u._21(null,["\n\n"])),(n()(),u._4(0,null,null,25,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,X.b,X.a)),u._3(4374528,null,0,$.a,[G.a,z.a,E.a,u.k,u.E,S.a,w.a,u.y,[2,N.a],[2,v.a]],null,null),(n()(),u._21(1,["\n  "])),(n()(),u._4(0,null,1,21,"ion-list",[],null,null,null,null,null)),u._3(16384,null,0,ln.a,[G.a,u.k,u.E,z.a,C.e,E.a],null,null),(n()(),u._21(null,["\n    "])),(n()(),u._4(0,null,null,6,"ion-list-header",[["class","item"]],null,null,null,_n.b,_n.a)),u._3(1097728,null,3,on.a,[k.a,G.a,u.k,u.E,[2,rn.a]],null,null),u._19(335544320,1,{contentLabel:0}),u._19(603979776,2,{_buttons:1}),u._19(603979776,3,{_icons:1}),u._3(16384,null,0,an.a,[G.a,u.E,u.k,[8,null]],null,null),(n()(),u._21(2,["Follow us on Twitter"])),(n()(),u._21(null,["\n    "])),(n()(),u._4(0,null,null,9,"ion-item",[["class","item item-block"]],null,null,null,_n.b,_n.a)),u._3(1097728,null,3,on.a,[k.a,G.a,u.k,u.E,[2,rn.a]],null,null),u._19(335544320,4,{contentLabel:0}),u._19(603979776,5,{_buttons:1}),u._19(603979776,6,{_icons:1}),u._3(16384,null,0,un.a,[],null,null),(n()(),u._21(2,["\n      "])),(n()(),u._4(0,null,0,1,"ion-icon",[["item-left",""],["name","ionic"],["role","img"]],[[2,"hide",null]],null,null,null,null)),u._3(147456,[[6,4]],0,sn.a,[G.a,u.k,u.E],{name:[0,"name"]},null),(n()(),u._21(2,["\n      @ionicframework\n    "])),(n()(),u._21(null,["\n  "])),(n()(),u._21(1,["\n"])),(n()(),u._21(null,["\n"]))],function(n,t){n(t,34,0,"ionic")},function(n,t){n(t,3,0,u._16(t,4)._hidden,u._16(t,4)._sbPadding),n(t,12,0,u._16(t,13).statusbarPadding,u._16(t,13)._hasRefresher),n(t,33,0,u._16(t,34)._hidden)})}function o(n){return u._22(0,[(n()(),u._4(0,null,null,10,"ion-header",[],null,null,null,null,null)),u._3(16384,null,0,Z.a,[G.a,u.k,u.E,[2,N.a]],null,null),(n()(),u._21(null,["\n  "])),(n()(),u._4(0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,q.b,q.a)),u._3(49152,null,0,J.a,[S.a,[2,N.a],[2,v.a],G.a,u.k,u.E],null,null),(n()(),u._21(3,["\n    "])),(n()(),u._4(0,null,3,2,"ion-title",[],null,null,null,W.b,W.a)),u._3(49152,null,0,Y.a,[G.a,u.k,u.E,[2,Q.a],[2,J.a]],null,null),(n()(),u._21(0,["Home"])),(n()(),u._21(3,["\n  "])),(n()(),u._21(null,["\n"])),(n()(),u._21(null,["\n\n"])),(n()(),u._4(0,null,null,14,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,X.b,X.a)),u._3(4374528,null,0,$.a,[G.a,z.a,E.a,u.k,u.E,S.a,w.a,u.y,[2,N.a],[2,v.a]],null,null),(n()(),u._21(1,["\n  "])),(n()(),u._4(0,null,1,1,"h2",[],null,null,null,null,null)),(n()(),u._21(null,["Welcome to Ionic!"])),(n()(),u._21(1,["\n  "])),(n()(),u._4(0,null,1,1,"p",[],null,null,null,null,null)),(n()(),u._21(null,["\n    This starter project comes with simple tabs-based layout for apps\n    that are going to primarily use a Tabbed UI.\n  "])),(n()(),u._21(1,["\n  "])),(n()(),u._4(0,null,1,4,"p",[],null,null,null,null,null)),(n()(),u._21(null,["\n    Take a look at the "])),(n()(),u._4(0,null,null,1,"code",[],null,null,null,null,null)),(n()(),u._21(null,["src/pages/"])),(n()(),u._21(null,[" directory to add or change tabs,\n    update any existing page or create new pages.\n  "])),(n()(),u._21(1,["\n"])),(n()(),u._21(null,["\n"]))],null,function(n,t){n(t,3,0,u._16(t,4)._hidden,u._16(t,4)._sbPadding),n(t,12,0,u._16(t,13).statusbarPadding,u._16(t,13)._hasRefresher)})}function r(n){return u._22(0,[(n()(),u._4(0,null,null,12,"ion-tabs",[],null,null,null,gn.b,gn.a)),u._3(4374528,null,0,yn.a,[[2,v.a],[2,N.a],S.a,G.a,u.k,z.a,u.E,U.a,w.a],null,null),u._18(6144,null,B.a,null,[yn.a]),(n()(),u._21(0,["\n  "])),(n()(),u._4(0,null,0,1,"ion-tab",[["role","tabpanel"],["tabIcon","home"],["tabTitle","Home"]],[[1,"id",0],[1,"aria-labelledby",0]],null,null,mn.b,mn.a)),u._3(245760,null,0,En.a,[yn.a,S.a,G.a,z.a,u.k,u.y,u.E,u.j,u.h,C.e,O.a,[2,U.a],E.a,u.l],{root:[0,"root"],tabTitle:[1,"tabTitle"],tabIcon:[2,"tabIcon"]},null),(n()(),u._21(0,["\n  "])),(n()(),u._4(0,null,0,1,"ion-tab",[["role","tabpanel"],["tabIcon","information-circle"],["tabTitle","About"]],[[1,"id",0],[1,"aria-labelledby",0]],null,null,mn.b,mn.a)),u._3(245760,null,0,En.a,[yn.a,S.a,G.a,z.a,u.k,u.y,u.E,u.j,u.h,C.e,O.a,[2,U.a],E.a,u.l],{root:[0,"root"],tabTitle:[1,"tabTitle"],tabIcon:[2,"tabIcon"]},null),(n()(),u._21(0,["\n  "])),(n()(),u._4(0,null,0,1,"ion-tab",[["role","tabpanel"],["tabIcon","contacts"],["tabTitle","Contact"]],[[1,"id",0],[1,"aria-labelledby",0]],null,null,mn.b,mn.a)),u._3(245760,null,0,En.a,[yn.a,S.a,G.a,z.a,u.k,u.y,u.E,u.j,u.h,C.e,O.a,[2,U.a],E.a,u.l],{root:[0,"root"],tabTitle:[1,"tabTitle"],tabIcon:[2,"tabIcon"]},null),(n()(),u._21(0,["\n"])),(n()(),u._21(null,["\n"]))],function(n,t){var e=t.component;n(t,5,0,e.tab1Root,"Home","home");n(t,8,0,e.tab2Root,"About","information-circle");n(t,11,0,e.tab3Root,"Contact","contacts")},function(n,t){n(t,4,0,u._16(t,5)._tabId,u._16(t,5)._btnId),n(t,7,0,u._16(t,8)._tabId,u._16(t,8)._btnId),n(t,10,0,u._16(t,11)._tabId,u._16(t,11)._btnId)})}Object.defineProperty(t,"__esModule",{value:!0});var a=e(19),u=e(0),s=(e(30),e(47)),h=e(48),c=function(){return function(n){this.navCtrl=n}}(),p=function(){return function(n){this.navCtrl=n}}(),b=function(){return function(n){this.navCtrl=n}}(),f=function(){return function(){this.tab1Root=b,this.tab2Root=c,this.tab3Root=p}}(),d=function(){return function(n,t,e){this.rootPage=f,n.ready().then(function(){t.styleDefault(),e.hide()})}}(),g=function(){return function(){}}(),y=e(15),m=e(91),E=e(5),P=e(32),S=e(4),C=e(9),A=e(66),I=e(93),D=e(92),T=e(65),M=e(62),k=e(26),L=e(43),w=e(13),R=e(61),O=e(14),j=e(127),F=e(128),H=e(42),N=e(6),v=e(10),G=e(1),z=e(3),U=e(11),B=e(17),V=[],K=u._2({encapsulation:2,styles:V,data:{}}),x=u._1("ng-component",d,function(n){return u._22(0,[(n()(),u._4(0,null,null,1,"ng-component",[],null,null,null,l,K)),u._3(49152,null,0,d,[z.a,s.a,h.a],null,null)],null,null)},{},{},[]),Z=e(36),q=e(67),J=e(18),W=e(68),Y=e(28),Q=e(23),X=e(69),$=e(21),nn=[],tn=u._2({encapsulation:2,styles:nn,data:{}}),en=u._1("page-about",c,function(n){return u._22(0,[(n()(),u._4(0,null,null,1,"page-about",[],null,null,null,_,tn)),u._3(49152,null,0,c,[v.a],null,null)],null,null)},{},{},[]),ln=e(59),_n=e(129),on=e(41),rn=e(35),an=e(60),un=e(58),sn=e(22),hn=[],cn=u._2({encapsulation:2,styles:hn,data:{}}),pn=u._1("page-contact",p,function(n){return u._22(0,[(n()(),u._4(0,null,null,1,"page-contact",[],null,null,null,i,cn)),u._3(49152,null,0,p,[v.a],null,null)],null,null)},{},{},[]),bn=[],fn=u._2({encapsulation:2,styles:bn,data:{}}),dn=u._1("page-home",b,function(n){return u._22(0,[(n()(),u._4(0,null,null,1,"page-home",[],null,null,null,o,fn)),u._3(49152,null,0,b,[v.a],null,null)],null,null)},{},{},[]),gn=e(130),yn=e(27),mn=e(131),En=e(44),Pn=[],Sn=u._2({encapsulation:2,styles:Pn,data:{}}),Cn=u._1("ng-component",f,function(n){return u._22(0,[(n()(),u._4(0,null,null,1,"ng-component",[],null,null,null,r,Sn)),u._3(49152,null,0,f,[],null,null)],null,null)},{},{},[]),An=e(33),In=e(63),Dn=e(94),Tn=e(64),Mn=e(31),kn=this&&this.__extends||function(){var n=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(n,t){n.__proto__=t}||function(n,t){for(var e in t)t.hasOwnProperty(e)&&(n[e]=t[e])};return function(t,e){function l(){this.constructor=t}n(t,e),t.prototype=null===e?Object.create(e):(l.prototype=e.prototype,new l)}}(),Ln=function(n){function t(t){return n.call(this,t,[j.a,x,en,pn,dn,Cn],[j.a])||this}return kn(t,n),Object.defineProperty(t.prototype,"_LOCALE_ID_25",{get:function(){return null==this.__LOCALE_ID_25&&(this.__LOCALE_ID_25=u._14(this.parent.get(u.u,null))),this.__LOCALE_ID_25},enumerable:!0,configurable:!0}),Object.defineProperty(t.prototype,"_NgLocalization_26",{get:function(){return null==this.__NgLocalization_26&&(this.__NgLocalization_26=new y.i(this._LOCALE_ID_25)),this.__NgLocalization_26},enumerable:!0,configurable:!0}),Object.defineProperty(t.prototype,"_APP_ID_27",{get:function(){return null==this.__APP_ID_27&&(this.__APP_ID_27=u._6()),this.__APP_ID_27},enumerable:!0,configurable:!0}),Object.defineProperty(t.prototype,"_IterableDiffers_28",{get:function(){return null==this.__IterableDiffers_28&&(this.__IterableDiffers_28=u._11()),this.__IterableDiffers_28},enumerable:!0,configurable:!0}),Object.defineProperty(t.prototype,"_KeyValueDiffers_29",{get:function(){return null==this.__KeyValueDiffers_29&&(this.__KeyValueDiffers_29=u._13()),this.__KeyValueDiffers_29},enumerable:!0,configurable:!0}),Object.defineProperty(t.prototype,"_DomSanitizer_30",{get:function(){return null==this.__DomSanitizer_30&&(this.__DomSanitizer_30=new a.s(this.parent.get(a.b))),this.__DomSanitizer_30},enumerable:!0,configurable:!0}),Object.defineProperty(t.prototype,"_Sanitizer_31",{get:function(){return null==this.__Sanitizer_31&&(this.__Sanitizer_31=this._DomSanitizer_30),this.__Sanitizer_31},enumerable:!0,configurable:!0}),Object.defineProperty(t.prototype,"_HAMMER_GESTURE_CONFIG_32",{get:function(){return null==this.__HAMMER_GESTURE_CONFIG_32&&(this.__HAMMER_GESTURE_CONFIG_32=new T.a),this.__HAMMER_GESTURE_CONFIG_32},enumerable:!0,configurable:!0}),Object.defineProperty(t.prototype,"_EVENT_MANAGER_PLUGINS_33",{get:function(){return null==this.__EVENT_MANAGER_PLUGINS_33&&(this.__EVENT_MANAGER_PLUGINS_33=[new a.l(this.parent.get(a.b)),new a.p(this.parent.get(a.b)),new a.o(this.parent.get(a.b),this._HAMMER_GESTURE_CONFIG_32)]),this.__EVENT_MANAGER_PLUGINS_33},enumerable:!0,configurable:!0}),Object.defineProperty(t.prototype,"_EventManager_34",{get:function(){return null==this.__EventManager_34&&(this.__EventManager_34=new a.e(this._EVENT_MANAGER_PLUGINS_33,this.parent.get(u.y))),this.__EventManager_34},enumerable:!0,configurable:!0}),Object.defineProperty(t.prototype,"_ɵDomSharedStylesHost_35",{get:function(){return null==this.__ɵDomSharedStylesHost_35&&(this.__ɵDomSharedStylesHost_35=new a.n(this.parent.get(a.b))),this.__ɵDomSharedStylesHost_35},enumerable:!0,configurable:!0}),Object.defineProperty(t.prototype,"_ɵDomRendererFactory2_36",{get:function(){return null==this.__ɵDomRendererFactory2_36&&(this.__ɵDomRendererFactory2_36=new a.m(this._EventManager_34,this._ɵDomSharedStylesHost_35)),this.__ɵDomRendererFactory2_36},enumerable:!0,configurable:!0}),Object.defineProperty(t.prototype,"_RendererFactory2_37",{get:function(){return null==this.__RendererFactory2_37&&(this.__RendererFactory2_37=this._ɵDomRendererFactory2_36),this.__RendererFactory2_37},enumerable:!0,configurable:!0}),Object.defineProperty(t.prototype,"_ɵSharedStylesHost_38",{get:function(){return null==this.__ɵSharedStylesHost_38&&(this.__ɵSharedStylesHost_38=this._ɵDomSharedStylesHost_35),this.__ɵSharedStylesHost_38},enumerable:!0,configurable:!0}),Object.defineProperty(t.prototype,"_Testability_39",{get:function(){return null==this.__Testability_39&&(this.__Testability_39=new u.M(this.parent.get(u.y))),this.__Testability_39},enumerable:!0,configurable:!0}),Object.defineProperty(t.prototype,"_Meta_40",{get:function(){return null==this.__Meta_40&&(this.__Meta_40=new a.h(this.parent.get(a.b))),this.__Meta_40},enumerable:!0,configurable:!0}),Object.defineProperty(t.prototype,"_Title_41",{get:function(){return null==this.__Title_41&&(this.__Title_41=new a.j(this.parent.get(a.b))),this.__Title_41},enumerable:!0,configurable:!0}),Object.defineProperty(t.prototype,"_ɵi_42",{get:function(){return null==this.__ɵi_42&&(this.__ɵi_42=new I.e),this.__ɵi_42},enumerable:!0,configurable:!0}),Object.defineProperty(t.prototype,"_FormBuilder_43",{get:function(){return null==this.__FormBuilder_43&&(this.__FormBuilder_43=new I.a),this.__FormBuilder_43},enumerable:!0,configurable:!0}),Object.defineProperty(t.prototype,"_Events_48",{get:function(){return null==this.__Events_48&&(this.__Events_48=new M.a),this.__Events_48},enumerable:!0,configurable:!0}),Object.defineProperty(t.prototype,"_Form_49",{get:function(){return null==this.__Form_49&&(this.__Form_49=new k.a),this.__Form_49},enumerable:!0,configurable:!0}),Object.defineProperty(t.prototype,"_Haptic_50",{get:function(){return null==this.__Haptic_50&&(this.__Haptic_50=new L.a(this._Platform_4)),this.__Haptic_50},enumerable:!0,configurable:!0}),Object.defineProperty(t.prototype,"_Keyboard_51",{get:function(){return null==this.__Keyboard_51&&(this.__Keyboard_51=new w.a(this._Config_5,this._Platform_4,this.parent.get(u.y),this._DomController_6)),this.__Keyboard_51},enumerable:!0,configurable:!0}),Object.defineProperty(t.prototype,"_LocationStrategy_53",{get:function(){return null==this.__LocationStrategy_53&&(this.__LocationStrategy_53=D.b(this.parent.get(y.l),this._APP_BASE_HREF_45,this._Config_5)),this.__LocationStrategy_53},enumerable:!0,configurable:!0}),Object.defineProperty(t.prototype,"_Location_54",{get:function(){return null==this.__Location_54&&(this.__Location_54=new y.d(this._LocationStrategy_53)),this.__Location_54},enumerable:!0,configurable:!0}),Object.defineProperty(t.prototype,"_UrlSerializer_55",{get:function(){return null==this.__UrlSerializer_55&&(this.__UrlSerializer_55=An.d(this._App_8,this._DeepLinkConfigToken_10)),this.__UrlSerializer_55},enumerable:!0,configurable:!0}),Object.defineProperty(t.prototype,"_DeepLinker_56",{get:function(){return null==this.__DeepLinker_56&&(this.__DeepLinker_56=U.b(this._App_8,this._UrlSerializer_55,this._Location_54,this._ModuleLoader_13,this.componentFactoryResolver)),this.__DeepLinker_56},enumerable:!0,configurable:!0}),Object.defineProperty(t.prototype,"_TapClick_60",{get:function(){return null==this.__TapClick_60&&(this.__TapClick_60=new R.a(this._Config_5,this._Platform_4,this._DomController_6,this._App_8,this._GestureController_9)),this.__TapClick_60},enumerable:!0,configurable:!0}),Object.defineProperty(t.prototype,"_TransitionController_62",{get:function(){return null==this.__TransitionController_62&&(this.__TransitionController_62=new O.a(this._Platform_4,this._Config_5)),this.__TransitionController_62},enumerable:!0,configurable:!0}),Object.defineProperty(t.prototype,"_StatusBar_63",{get:function(){return null==this.__StatusBar_63&&(this.__StatusBar_63=new s.a),this.__StatusBar_63},enumerable:!0,configurable:!0}),Object.defineProperty(t.prototype,"_SplashScreen_64",{get:function(){return null==this.__SplashScreen_64&&(this.__SplashScreen_64=new h.a),this.__SplashScreen_64},enumerable:!0,configurable:!0}),t.prototype.createInternal=function(){return this._CommonModule_0=new y.b,this._ErrorHandler_1=new m.a,this._ConfigToken_2=null,this._PlatformConfigToken_3=In.b(),this._Platform_4=z.b(this.parent.get(a.b),this._PlatformConfigToken_3,this.parent.get(u.y)),this._Config_5=G.c(this._ConfigToken_2,this._Platform_4),this._DomController_6=new E.a(this._Platform_4),this._MenuController_7=new P.a,this._App_8=new S.a(this._Config_5,this._Platform_4,this._MenuController_7),this._GestureController_9=new C.e(this._App_8),this._DeepLinkConfigToken_10=null,this._Compiler_11=new u.i,this._NgModuleLoader_12=new A.a(this._Compiler_11),this._ModuleLoader_13=Dn.c(this._NgModuleLoader_12,this),this._APP_INITIALIZER_14=[u._17,a.r(this.parent.get(a.i,null),this.parent.get(u.x,null)),Tn.a(this._Config_5),M.b(this._Platform_4,this._DomController_6),R.b(this._Config_5,this._Platform_4,this._DomController_6,this._App_8,this._GestureController_9),Dn.d(this._Config_5,this._DeepLinkConfigToken_10,this._ModuleLoader_13,this.parent.get(u.y))],this._ApplicationInitStatus_15=new u.d(this._APP_INITIALIZER_14),this._ɵf_16=new u._5(this.parent.get(u.y),this.parent.get(u.Y),this,this._ErrorHandler_1,this.componentFactoryResolver,this._ApplicationInitStatus_15),this._ApplicationRef_17=this._ɵf_16,this._ApplicationModule_18=new u.e(this._ApplicationRef_17),this._BrowserModule_19=new a.a(this.parent.get(a.a,null)),this._ɵba_20=new I.d,this._FormsModule_21=new I.b,this._ReactiveFormsModule_22=new I.c,this._IonicModule_23=new D.a,this._AppModule_24=new g,this._AppRootToken_44=d,this._APP_BASE_HREF_45="/",this._AppModule_24},t.prototype.getInternal=function(n,t){return n===y.b?this._CommonModule_0:n===u.l?this._ErrorHandler_1:n===G.b?this._ConfigToken_2:n===In.a?this._PlatformConfigToken_3:n===z.a?this._Platform_4:n===G.a?this._Config_5:n===E.a?this._DomController_6:n===P.a?this._MenuController_7:n===S.a?this._App_8:n===C.e?this._GestureController_9:n===An.a?this._DeepLinkConfigToken_10:n===u.i?this._Compiler_11:n===A.a?this._NgModuleLoader_12:n===Dn.b?this._ModuleLoader_13:n===u.c?this._APP_INITIALIZER_14:n===u.d?this._ApplicationInitStatus_15:n===u._5?this._ɵf_16:n===u.f?this._ApplicationRef_17:n===u.e?this._ApplicationModule_18:n===a.a?this._BrowserModule_19:n===I.d?this._ɵba_20:n===I.b?this._FormsModule_21:n===I.c?this._ReactiveFormsModule_22:n===D.a?this._IonicModule_23:n===g?this._AppModule_24:n===u.u?this._LOCALE_ID_25:n===y.j?this._NgLocalization_26:n===u.b?this._APP_ID_27:n===u.s?this._IterableDiffers_28:n===u.t?this._KeyValueDiffers_29:n===a.c?this._DomSanitizer_30:n===u.H?this._Sanitizer_31:n===a.f?this._HAMMER_GESTURE_CONFIG_32:n===a.d?this._EVENT_MANAGER_PLUGINS_33:n===a.e?this._EventManager_34:n===a.n?this._ɵDomSharedStylesHost_35:n===a.m?this._ɵDomRendererFactory2_36:n===u.F?this._RendererFactory2_37:n===a.q?this._ɵSharedStylesHost_38:n===u.M?this._Testability_39:n===a.h?this._Meta_40:n===a.j?this._Title_41:n===I.e?this._ɵi_42:n===I.a?this._FormBuilder_43:n===Mn.a?this._AppRootToken_44:n===y.a?this._APP_BASE_HREF_45:n===M.a?this._Events_48:n===k.a?this._Form_49:n===L.a?this._Haptic_50:n===w.a?this._Keyboard_51:n===y.e?this._LocationStrategy_53:n===y.d?this._Location_54:n===An.b?this._UrlSerializer_55:n===U.a?this._DeepLinker_56:n===R.a?this._TapClick_60:n===O.a?this._TransitionController_62:n===s.a?this._StatusBar_63:n===h.a?this._SplashScreen_64:t},t.prototype.destroyInternal=function(){this._ɵf_16.ngOnDestroy(),this.__ɵDomSharedStylesHost_35&&this._ɵDomSharedStylesHost_35.ngOnDestroy()},t}(u.Z),wn=new u.v(Ln,g);Object(u.S)(),Object(a.k)().bootstrapModuleFactory(wn)}},[98]);
+webpackJsonp([0],{
+
+/***/ 100:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ContactPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(32);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var ContactPage = (function () {
+    function ContactPage(navCtrl) {
+        this.navCtrl = navCtrl;
+    }
+    ContactPage.prototype.approved = function (event) {
+        console.log("Approved", event);
+    };
+    return ContactPage;
+}());
+ContactPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-contact',template:/*ion-inline-start:"/Users/kevinbrown/git/Instantmortgage/src/pages/contact/contact.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Results\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-list>\n    <ion-list-header>Choose your mortgage offer</ion-list-header>\n<ion-list>\n  <ion-item-sliding>\n    <ion-item>\n    <ion-thumbnail item-start>\n      <img src="../../assets/bankicon/halifax.png">\n    </ion-thumbnail>\n      <h2>Halifax 3 year Fixed Rate at 2.5%</h2>\n      <button ion-button clear item-end>View</button>\n    </ion-item>\n    <ion-item-options side="right">\n      <button ion-button color="primary">\n        <ion-icon name="mail" (click)="approved($event)"></ion-icon>\n        Approve\n      </button>\n    </ion-item-options>\n  </ion-item-sliding>\n\n    <ion-item-sliding>\n  <ion-item>\n    <ion-thumbnail item-start>\n      <img src="../../assets/bankicon/nationwide.png">\n    </ion-thumbnail>\n    <h2>Nationwide 3 year Fixed Rate at 2%</h2>\n    <button ion-button clear item-end>View</button>\n  </ion-item>\n          <ion-item-options side="right">\n      <button ion-button color="primary">\n        <ion-icon name="mail" (click)="approved($event)"></ion-icon>\n        Approve\n      </button>\n    </ion-item-options>\n        </ion-item-sliding>\n\n      <ion-item-sliding>\n    <ion-item>\n    <ion-thumbnail item-start>\n      <img src="../../assets/bankicon/nationwide.png">\n    </ion-thumbnail>\n    <h2>Nationwide 3 year Variable Rate at 1.8%</h2>\n    <button ion-button clear item-end>View</button>\n  </ion-item>\n                  <ion-item-options side="right">\n      <button ion-button color="primary">\n        <ion-icon name="mail" (click)="approved($event)"></ion-icon>\n        Approve\n      </button>\n    </ion-item-options>\n  </ion-item-sliding>\n\n      <ion-item-sliding>\n    <ion-item>\n    <ion-thumbnail item-start>\n      <img src="../../assets/bankicon/santander.png">\n    </ion-thumbnail>\n    <h2>Santander 3 year Variable Rate at 2.0%</h2>\n    <button ion-button clear item-end>View</button>\n  </ion-item>\n                  <ion-item-options side="right">\n      <button ion-button color="primary">\n        <ion-icon name="mail" (click)="approved($event)"></ion-icon>\n        Approve\n      </button>\n    </ion-item-options>\n  </ion-item-sliding>\n  <ion-item-sliding>\n      <ion-item>\n    <ion-thumbnail item-start>\n      <img src="../../assets/bankicon/hsbc.png">\n    </ion-thumbnail>\n    <h2>HSBC 2 year Fixed Rate at 3.0%</h2>\n    <button ion-button clear item-end>View</button>\n  </ion-item>\n              <ion-item-options side="right">\n      <button ion-button color="primary">\n        <ion-icon name="mail" (click)="approved($event)"></ion-icon>\n        Approve\n      </button>\n    </ion-item-options>\n  </ion-item-sliding>\n</ion-list>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"/Users/kevinbrown/git/Instantmortgage/src/pages/contact/contact.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
+], ContactPage);
+
+//# sourceMappingURL=contact.js.map
+
+/***/ }),
+
+/***/ 101:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MortgageDetailsProvider; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(266);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/*
+  Generated class for the MortgageDetailsProvider provider.
+
+  See https://angular.io/docs/ts/latest/guide/dependency-injection.html
+  for more info on providers and Angular DI.
+*/
+var MortgageDetailsProvider = (function () {
+    function MortgageDetailsProvider(http) {
+        this.http = http;
+        console.log('Hello MortgageDetailsProvider Provider');
+    }
+    MortgageDetailsProvider.prototype.getTerm = function () {
+        console.log("Getting term", this.term);
+        return this.term;
+    };
+    MortgageDetailsProvider.prototype.setTerm = function (t) {
+        this.term = t;
+        console.log("Setting term", this.term);
+    };
+    MortgageDetailsProvider.prototype.getLoanAmount = function () {
+        return this.loan_amount;
+    };
+    MortgageDetailsProvider.prototype.setLoanAmount = function (amt) {
+        this.loan_amount = amt;
+    };
+    return MortgageDetailsProvider;
+}());
+MortgageDetailsProvider = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["B" /* Injectable */])(),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Http */]])
+], MortgageDetailsProvider);
+
+//# sourceMappingURL=mortgage-details.js.map
+
+/***/ }),
+
+/***/ 110:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 110;
+
+/***/ }),
+
+/***/ 152:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 152;
+
+/***/ }),
+
+/***/ 196:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TabsPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__about_about__ = __webpack_require__(99);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__contact_contact__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__home_home__ = __webpack_require__(197);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var TabsPage = (function () {
+    function TabsPage() {
+        this.tab1Root = __WEBPACK_IMPORTED_MODULE_3__home_home__["a" /* HomePage */];
+        this.tab2Root = __WEBPACK_IMPORTED_MODULE_1__about_about__["a" /* AboutPage */];
+        this.tab3Root = __WEBPACK_IMPORTED_MODULE_2__contact_contact__["a" /* ContactPage */];
+    }
+    return TabsPage;
+}());
+TabsPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/Users/kevinbrown/git/Instantmortgage/src/pages/tabs/tabs.html"*/'<ion-tabs>\n  <ion-tab [root]="tab1Root" tabTitle="About You" tabIcon="add"></ion-tab>\n  <ion-tab [root]="tab2Root" tabTitle="Live Application" tabIcon="code-working"></ion-tab>\n  <ion-tab [root]="tab3Root" tabTitle="Results" tabIcon="done-all"></ion-tab>\n</ion-tabs>\n'/*ion-inline-end:"/Users/kevinbrown/git/Instantmortgage/src/pages/tabs/tabs.html"*/
+    }),
+    __metadata("design:paramtypes", [])
+], TabsPage);
+
+//# sourceMappingURL=tabs.js.map
+
+/***/ }),
+
+/***/ 197:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__about_about__ = __webpack_require__(99);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_mortgage_details_mortgage_details__ = __webpack_require__(101);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+//import { ContactPage } from '../contact/contact';
+
+
+var HomePage = (function () {
+    function HomePage(navCtrl, md) {
+        this.navCtrl = navCtrl;
+        this.md = md;
+    }
+    HomePage.prototype.nextButton = function (evt) {
+        console.log(evt, this.term, this.loan_amount);
+        this.md.setTerm(this.term);
+        this.md.setLoanAmount(this.loan_amount);
+        console.log(this.navCtrl);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__about_about__["a" /* AboutPage */]);
+        console.log(this.md.getTerm());
+    };
+    return HomePage;
+}());
+HomePage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-home',template:/*ion-inline-start:"/Users/kevinbrown/git/Instantmortgage/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>Home</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <h2>Instant Mortgage</h2>\n<ion-list>\n\n  <ion-item>\n  <ion-label>9, Cotham Lawn House, <BR>  Cotham Lawn Road <BR> Cotham <BR> Bristol, <BR> BS6 6DU\n  </ion-label>\n  </ion-item>\n    <ion-item>\n  <ion-label> Cost: £505,000<BR><BR></ion-label>\n  <!--ion-label> UPRN: 79984</label-->\n  </ion-item>\n  <ion-item>\n    <ion-label stacked>How much do you want to borrow?</ion-label>\n    <ion-input type="text" [(ngModel)]="loan_amount"></ion-input>\n  </ion-item>\n\n  <ion-item>\n    <ion-label stacked>How many years would you like to borrow for?</ion-label>\n    <ion-input type="text" [(ngModel)]="term"></ion-input>\n  </ion-item>\n</ion-list>\n\n  <button ion-button full (click)="nextButton($event)">Next</button>\n</ion-content>\n'/*ion-inline-end:"/Users/kevinbrown/git/Instantmortgage/src/pages/home/home.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */], __WEBPACK_IMPORTED_MODULE_3__providers_mortgage_details_mortgage_details__["a" /* MortgageDetailsProvider */]])
+], HomePage);
+
+//# sourceMappingURL=home.js.map
+
+/***/ }),
+
+/***/ 198:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(199);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(217);
+
+
+Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
+//# sourceMappingURL=main.js.map
+
+/***/ }),
+
+/***/ 217:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ionic_angular__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_component__ = __webpack_require__(257);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_about_about__ = __webpack_require__(99);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_contact_contact__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_home_home__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_tabs_tabs__ = __webpack_require__(196);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ionic_native_status_bar__ = __webpack_require__(192);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_native_splash_screen__ = __webpack_require__(195);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__providers_mortgage_details_mortgage_details__ = __webpack_require__(101);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+var AppModule = (function () {
+    function AppModule() {
+    }
+    return AppModule;
+}());
+AppModule = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* NgModule */])({
+        declarations: [
+            __WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* MyApp */],
+            __WEBPACK_IMPORTED_MODULE_5__pages_about_about__["a" /* AboutPage */],
+            __WEBPACK_IMPORTED_MODULE_6__pages_contact_contact__["a" /* ContactPage */],
+            __WEBPACK_IMPORTED_MODULE_7__pages_home_home__["a" /* HomePage */],
+            __WEBPACK_IMPORTED_MODULE_8__pages_tabs_tabs__["a" /* TabsPage */]
+        ],
+        imports: [
+            __WEBPACK_IMPORTED_MODULE_2__angular_http__["b" /* HttpModule */],
+            __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__["a" /* BrowserModule */],
+            __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* MyApp */])
+        ],
+        bootstrap: [__WEBPACK_IMPORTED_MODULE_3_ionic_angular__["a" /* IonicApp */]],
+        entryComponents: [
+            __WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* MyApp */],
+            __WEBPACK_IMPORTED_MODULE_5__pages_about_about__["a" /* AboutPage */],
+            __WEBPACK_IMPORTED_MODULE_6__pages_contact_contact__["a" /* ContactPage */],
+            __WEBPACK_IMPORTED_MODULE_7__pages_home_home__["a" /* HomePage */],
+            __WEBPACK_IMPORTED_MODULE_8__pages_tabs_tabs__["a" /* TabsPage */]
+        ],
+        providers: [
+            __WEBPACK_IMPORTED_MODULE_9__ionic_native_status_bar__["a" /* StatusBar */],
+            __WEBPACK_IMPORTED_MODULE_10__ionic_native_splash_screen__["a" /* SplashScreen */],
+            __WEBPACK_IMPORTED_MODULE_11__providers_mortgage_details_mortgage_details__["a" /* MortgageDetailsProvider */],
+            { provide: __WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["b" /* IonicErrorHandler */] }
+        ]
+    })
+], AppModule);
+
+//# sourceMappingURL=app.module.js.map
+
+/***/ }),
+
+/***/ 257:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(192);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(195);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_tabs_tabs__ = __webpack_require__(196);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+var MyApp = (function () {
+    function MyApp(platform, statusBar, splashScreen) {
+        this.rootPage = __WEBPACK_IMPORTED_MODULE_4__pages_tabs_tabs__["a" /* TabsPage */];
+        platform.ready().then(function () {
+            // Okay, so the platform is ready and our plugins are available.
+            // Here you can do any higher level native things you might need.
+            statusBar.styleDefault();
+            splashScreen.hide();
+        });
+    }
+    return MyApp;
+}());
+MyApp = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/Users/kevinbrown/git/Instantmortgage/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"/Users/kevinbrown/git/Instantmortgage/src/app/app.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
+], MyApp);
+
+//# sourceMappingURL=app.component.js.map
+
+/***/ }),
+
+/***/ 99:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AboutPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__contact_contact__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_mortgage_details_mortgage_details__ = __webpack_require__(101);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+var AboutPage = (function () {
+    function AboutPage(navCtrl, http, md) {
+        this.navCtrl = navCtrl;
+        this.http = http;
+        this.md = md;
+        this.checkResults = { propertyCheck: '', identityCheck: '', affordabilityCheck: '', creditCheck: '', earningsCheck: '' };
+        this.startChecks();
+    }
+    AboutPage.prototype.startChecks = function () {
+        var stop = false;
+        this.makePostRequest("https://instant-mortgage-historiographic-psychoanalysis.eu-gb.mybluemix.net/checks/property", { "uprn": "79984" }, function (data, context) {
+            if (data.passed != true) {
+                context.stop = true;
+            }
+            context.checkResults.propertyCheck = "Passed: " + data.passed;
+        });
+        setTimeout(function (stthis) {
+            stthis.makePostRequest("https://instant-mortgage-historiographic-psychoanalysis.eu-gb.mybluemix.net/checks/identity", { "": "" }, function (data, context) {
+                if (data.passed != true) {
+                    context.stop = true;
+                }
+                context.checkResults.identityCheck = "Passed: " + data.passed;
+            });
+        }, 1000, this);
+        console.log("TERM : ", this.md.getTerm());
+        setTimeout(function (stthis) {
+            stthis.makePostRequest("https://instant-mortgage-historiographic-psychoanalysis.eu-gb.mybluemix.net/checks/affordability", { "uprn": "79984",
+                "person_id": 100000013,
+                "term": stthis.md.getTerm(),
+                "loan_amount": stthis.md.getLoanAmount() }, function (data, context) {
+                if (data.passed != true) {
+                    context.stop = true;
+                }
+                context.checkResults.affordabilityCheck = "Passed: " + data.passed;
+            });
+        }, 2000, this);
+        setTimeout(function (stthis) {
+            stthis.makePostRequest("https://instant-mortgage-historiographic-psychoanalysis.eu-gb.mybluemix.net/checks/credit", { "person_id": "100000013" }, function (data, context) {
+                if (data.passed != true) {
+                    context.stop = true;
+                }
+                context.checkResults.creditCheck = "Passed: " + data.passed;
+            });
+        }, 3000, this);
+        setTimeout(function (stthis) {
+            stthis.makePostRequest("https://instant-mortgage-historiographic-psychoanalysis.eu-gb.mybluemix.net/checks/earnings", { "person_id": "100000013" }, function (data, context) {
+                if (data.passed != true) {
+                    context.stop = true;
+                }
+                context.checkResults.earningsCheck = "Passed: " + data.passed;
+            });
+        }, 4000, this);
+        setTimeout(function (stthis) {
+            if (!stthis.stop) {
+                stthis.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__contact_contact__["a" /* ContactPage */]);
+            }
+        }, 5000, this);
+    };
+    AboutPage.prototype.makePostRequest = function (url, param, callback) {
+        var _this = this;
+        this.http.post(url, param)
+            .subscribe(function (data) {
+            callback(data.json(), _this);
+        }, function (error) {
+            console.log(JSON.stringify(error.json()));
+        });
+    };
+    return AboutPage;
+}());
+AboutPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-about',template:/*ion-inline-start:"/Users/kevinbrown/git/Instantmortgage/src/pages/about/about.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      About\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  \n  <ion-list>\n  <ion-item>\n    <ion-icon name="clock" item-start></ion-icon>\n    <h2>Property Check</h2>\n    <h3>{{checkResults.propertyCheck}}</h3>\n  </ion-item>\n      <ion-item>\n    <ion-icon name="clock" item-start></ion-icon>\n      Identity Check\n        <h3>{{checkResults.identityCheck}}</h3>\n  </ion-item>\n      <ion-item>\n    <ion-icon name="clock" item-start></ion-icon>\n      Affordability\n        <h3>{{checkResults.affordabilityCheck}}</h3>\n  </ion-item>\n      <ion-item>\n    <ion-icon name="clock" item-start></ion-icon>\n      Credit Check\n        <h3>{{checkResults.creditCheck}}</h3>\n  </ion-item>\n      <ion-item>\n    <ion-icon name="clock" item-start></ion-icon>\n      Earnings Check\n        <h3>{{checkResults.earningsCheck}}</h3>\n  </ion-item>\n</ion-list>\n\n</ion-content>\n'/*ion-inline-end:"/Users/kevinbrown/git/Instantmortgage/src/pages/about/about.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */], __WEBPACK_IMPORTED_MODULE_4__providers_mortgage_details_mortgage_details__["a" /* MortgageDetailsProvider */]])
+], AboutPage);
+
+//# sourceMappingURL=about.js.map
+
+/***/ })
+
+},[198]);
+//# sourceMappingURL=main.js.map
