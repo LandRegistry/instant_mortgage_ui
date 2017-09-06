@@ -10211,7 +10211,7 @@ var ComponentFactory_ = (function (_super) {
      * @param {?} ngContentSelectors
      */
     function ComponentFactory_(selector, componentType, viewDefFactory, _inputs, _outputs, ngContentSelectors) {
-        var _this =
+        var _this = 
         // Attention: this ctor is called as top level function.
         // Putting any logic in here will destroy closure tree shaking!
         _super.call(this) || this;
@@ -52003,21 +52003,21 @@ var InfiniteScroll = (function () {
         (void 0) /* assert */;
         /* New content is being added at the top, but the scrollTop position stays the same,
           which causes a scroll jump visually. This algorithm makes sure to prevent this.
-
+    
           (Frame 1)
             complete() is called, but the UI hasn't had time to update yet.
             Save the current content dimensions.
             Wait for the next frame using _dom.read, so the UI will be updated.
-
+    
           (Frame 2)
             Read the new content dimensions.
             Calculate the height difference and the new scroll position.
             Delay the scroll position change until other possible dom reads are done using _dom.write to be performant.
-
+    
           (Still frame 2, if I'm correct)
             Change the scroll position (= visually maintain the scroll position).
             Change the state to re-enable the InfiniteScroll. This should be after changing the scroll position, or it could cause the InfiniteScroll to be triggered again immediately.
-
+    
           (Frame 3)
             Done.
         */
@@ -72629,7 +72629,7 @@ var Tab = (function (_super) {
      * @param {?} errHandler
      */
     function Tab(parent, app, config, plt, elementRef, zone, renderer, cfr, _cd, gestureCtrl, transCtrl, linker, _dom, errHandler) {
-        var _this =
+        var _this = 
         // A Tab is a NavController for its child pages
         _super.call(this, parent, app, config, plt, elementRef, zone, renderer, cfr, gestureCtrl, transCtrl, linker, _dom, errHandler) || this;
         _this._cd = _cd;

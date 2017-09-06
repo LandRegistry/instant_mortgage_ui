@@ -16,29 +16,29 @@ export class AboutPage {
   constructor(public navCtrl: NavController, public http: Http, public md: MortgageDetailsProvider ) {
       this.startChecks();
   }
-  
+
     startChecks() {
-    
+
     var stop = false;
-      this.makePostRequest("https://instant-mortgage-historiographic-psychoanalysis.eu-gb.mybluemix.net/checks/property",{"uprn":"79984"},function (data, context) {
+      this.makePostRequest("https://instant-mortgage-fulvous-telecourse.eu-gb.mybluemix.net/checks/property",{"uprn":"79984"},function (data, context) {
       if (data.passed != true) { context.stop = true;}
       context.checkResults.propertyCheck = "Passed: " +  data.passed;
     });
-    
-    
+
+
      setTimeout(function(stthis) {
-        stthis.makePostRequest("https://instant-mortgage-historiographic-psychoanalysis.eu-gb.mybluemix.net/checks/identity",
+        stthis.makePostRequest("https://instant-mortgage-fulvous-telecourse.eu-gb.mybluemix.net/checks/identity",
             {"":""},
             function (data, context) {
             if (data.passed != true) { context.stop = true;}
                 context.checkResults.identityCheck = "Passed: " +  data.passed;
             })
-            
+
             },1000,this);
-            
+
             console.log("TERM : ", this.md.getTerm())
          setTimeout(function(stthis) {
-        stthis.makePostRequest("https://instant-mortgage-historiographic-psychoanalysis.eu-gb.mybluemix.net/checks/affordability",
+        stthis.makePostRequest("https://instant-mortgage-fulvous-telecourse.eu-gb.mybluemix.net/checks/affordability",
             {"uprn":"79984",
             "person_id":100000013,
             "term": stthis.md.getTerm(),
@@ -47,30 +47,30 @@ export class AboutPage {
                 if (data.passed != true) { context.stop = true;}
                 context.checkResults.affordabilityCheck = "Passed: " +  data.passed;
             })
-            
+
             },2000,this);
-            
+
            setTimeout(function(stthis) {
-        stthis.makePostRequest("https://instant-mortgage-historiographic-psychoanalysis.eu-gb.mybluemix.net/checks/credit",
+        stthis.makePostRequest("https://instant-mortgage-fulvous-telecourse.eu-gb.mybluemix.net/checks/credit",
             {"person_id":"100000013"},
             function (data, context) {
             if (data.passed != true) { context.stop = true;}
                 context.checkResults.creditCheck = "Passed: " +  data.passed;
             })
-            
+
             },3000,this);
-            
-            
+
+
              setTimeout(function(stthis) {
-        stthis.makePostRequest("https://instant-mortgage-historiographic-psychoanalysis.eu-gb.mybluemix.net/checks/earnings",
+        stthis.makePostRequest("https://instant-mortgage-fulvous-telecourse.eu-gb.mybluemix.net/checks/earnings",
             {"person_id":"100000013"},
             function (data, context) {
             if (data.passed != true) { context.stop = true;}
                 context.checkResults.earningsCheck = "Passed: " +  data.passed;
             })
-            
+
             },4000,this);
-            
+
             setTimeout(function(stthis) {
                 if (!stthis.stop) {
                 stthis.navCtrl.push(ContactPage);
@@ -78,11 +78,11 @@ export class AboutPage {
             },5000,this);
 
   }
-  
-  
-  
+
+
+
   makePostRequest(url,param,callback) {
-        this.http.post(url, 
+        this.http.post(url,
         param)
         .subscribe(data => {
              callback(data.json(), this);
