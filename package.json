@@ -8,7 +8,7 @@
     "lint": "ionic-app-scripts lint",
     "ionic:build": "ionic-app-scripts build",
     "ionic:serve": "ionic-app-scripts serve",
-    "start": "ionic serve --no-interactive --nobrowser -p 8080"
+    "start": "ionic serve --no-interactive --nobrowser -p 8080 --prod --release"
   },
   "dependencies": {
     "@angular/common": "4.1.3",
@@ -36,9 +36,7 @@
     "ionicons": "3.0.0",
     "rxjs": "5.4.0",
     "sw-toolbox": "3.6.0",
-    "zone.js": "0.8.12"
-  },
-  "devDependencies": {
+    "zone.js": "0.8.12",
     "@ionic/app-scripts": "2.1.4",
     "typescript": "2.3.4"
   },
