@@ -1,8 +1,9 @@
 applications:
 - path: .
-  memory: 500M
+  memory: 644M
   instances: 1
   domain: eu-gb.mybluemix.net
-  name: Instantmortgage
-  host: Instantmortgage
-  disk_quota: 1024M
+  name: InstantMortgageUI
+  host: hmlr-ds-instantmortgageui
+  env:
+    NODE_ENV: production
