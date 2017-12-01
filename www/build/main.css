@@ -25198,3 +25198,68 @@ ion-navbar.toolbar {
     padding-top: calc(16px + 20px);
   }
 }
+
+page-about .info {
+  color: gray;
+}
+
+page-about .buttonhome {
+  float: right;
+}
+
+page-about .info1 {
+  text-align: center;
+  color: red;
+}
+
+page-contact .buttonhome {
+  float: right;
+}
+
+page-contact a {
+  float: right;
+}
+
+page-home .buttonhome {
+  float: right;
+}
+
+page-login .details {
+  /* margin-top: 200px; */
+  background-color: #0C1D3B;
+  color: white;
+  text-align: center;
+  position: relative;
+  left: 0;
+  padding-top: 25px;
+  height: 600px;
+}
+
+page-login .fp {
+  font-size: 300px;
+}
+
+page-login .button {
+  width: 300px;
+  height: 300px;
+  min-width: initial;
+  color: white;
+  background-color: #0C1D3B;
+}
+
+page-login .button1 {
+  width: 300px;
+  height: 300px;
+  min-width: initial;
+  color: green;
+  background-color: #0C1D3B;
+}
+
+page-login .success {
+  background-color: limegreen;
+  color: limegreen;
+}
+
+page-login .buttonhome {
+  float: right;
+}

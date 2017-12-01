@@ -27,6 +27,8 @@ export class HomePage {
     this.navCtrl.push(AboutPage);
     console.log(this.md.getTerm());
   }
+ 
+
 
   
 
