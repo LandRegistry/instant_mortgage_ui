@@ -1,9 +1,8 @@
 applications:
-- path: .
-  memory: 644M
+- path: ./www
+  buildpack: staticfile_buildpack
+  memory: 32M
   instances: 1
   domain: eu-gb.mybluemix.net
   name: InstantMortgageUI
   host: hmlr-ds-instantmortgageui
-  env:
-    NODE_ENV: production
