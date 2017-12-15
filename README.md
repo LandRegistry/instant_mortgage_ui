@@ -1,6 +1,6 @@
 # instant-mortgage-ui
 
-`` bash
+```bash
 # install dependencies
 npm install
 
