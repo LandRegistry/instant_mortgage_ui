@@ -20,14 +20,16 @@ export class AboutPage {
     startChecks() {
 
     var stop = false;
-      this.makePostRequest("https://hmlr-ds-instantmortgageapi.eu-gb.mybluemix.net/checks/property",{"uprn":"79984"},function (data, context) {
-      if (data.passed != true) { context.stop = true;}
+     this.makePostRequest("https://hmlr-ds-instantmortgageapi.eu-gb.mybluemix.net/checks/property",{"uprn":"79984"},function (data, context) {
+        // this.makePostRequest("http://localhost:4000/checks/property",{"uprn":"79984"},function (data, context) {
+     if (data.passed != true) { context.stop = true;}
       context.checkResults.propertyCheck = "Passed: " +  data.passed;
     });
 
 
      setTimeout(function(stthis) {
         stthis.makePostRequest("https://hmlr-ds-instantmortgageapi.eu-gb.mybluemix.net/checks/identity",
+        // stthis.makePostRequest("http://localhost:4000/checks/identity",
             {"":""},
             function (data, context) {
             if (data.passed != true) { context.stop = true;}
@@ -38,7 +40,8 @@ export class AboutPage {
 
             console.log("TERM : ", this.md.getTerm())
          setTimeout(function(stthis) {
-        stthis.makePostRequest("https://hmlr-ds-instantmortgageapi.eu-gb.mybluemix.net/checks/affordability",
+       stthis.makePostRequest("https://hmlr-ds-instantmortgageapi.eu-gb.mybluemix.net/checks/affordability",
+    //    stthis.makePostRequest("http://localhost:4000/checks/affordability",
             {"uprn":"79984",
             "person_id":100000013,
             "term": stthis.md.getTerm(),
@@ -51,7 +54,8 @@ export class AboutPage {
             },2000,this);
 
            setTimeout(function(stthis) {
-        stthis.makePostRequest("https://hmlr-ds-instantmortgageapi.eu-gb.mybluemix.net/checks/credit",
+       stthis.makePostRequest("https://hmlr-ds-instantmortgageapi.eu-gb.mybluemix.net/checks/credit",
+    //    stthis.makePostRequest("http://localhost:4000/checks/credit",
             {"person_id":"100000013"},
             function (data, context) {
             if (data.passed != true) { context.stop = true;}
@@ -63,6 +67,7 @@ export class AboutPage {
 
              setTimeout(function(stthis) {
         stthis.makePostRequest("https://hmlr-ds-instantmortgageapi.eu-gb.mybluemix.net/checks/earnings",
+        // stthis.makePostRequest("http://localhost:4000/checks/earnings",
             {"person_id":"100000013"},
             function (data, context) {
             if (data.passed != true) { context.stop = true;}

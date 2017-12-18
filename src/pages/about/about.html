@@ -1,8 +1,10 @@
-<ion-header>
+<ion-header><a href="http://hmlr-ds-landingscreen.eu-gb.mybluemix.net/#/LandingIM"><button class = "buttonhome"><ion-icon ios="ios-home" md="md-home">Restart Demo</ion-icon></button></a>
   <ion-navbar>
     <ion-title>
       About
     </ion-title>
+    
+    
   </ion-navbar>
 </ion-header>
 
@@ -12,28 +14,35 @@
   <ion-item>
     <ion-icon name="clock" item-start></ion-icon>
     <h2>Property Check</h2>
+    <h3 class="info">Checks the property for ﬂood risk, coal mining, location, local land charges etc</h3>
     <h3>{{checkResults.propertyCheck}}</h3>
   </ion-item>
       <ion-item>
     <ion-icon name="clock" item-start></ion-icon>
       Identity Check
+      <h3 class="info">Checks the identity of Emma. Checks such as Verify could be used to check driving license, passport, national insurance</h3>
         <h3>{{checkResults.identityCheck}}</h3>
   </ion-item>
       <ion-item>
     <ion-icon name="clock" item-start></ion-icon>
       Affordability
+      <h3 class="info">Checks Emma's bank information to conﬁrm she can afford the mortgage</h3>
         <h3>{{checkResults.affordabilityCheck}}</h3>
   </ion-item>
       <ion-item>
     <ion-icon name="clock" item-start></ion-icon>
       Credit Check
+      <h3 class="info">Checks credit data for Emma</h3>
         <h3>{{checkResults.creditCheck}}</h3>
   </ion-item>
       <ion-item>
     <ion-icon name="clock" item-start></ion-icon>
       Earnings Check
+      <h3 class="info"> A check is performed with HMRC on earnings against Emma's P60 including tax and amount earned in the year</h3>
         <h3>{{checkResults.earningsCheck}}</h3>
   </ion-item>
 </ion-list>
-
+<div class="info1" *ngIf = "checkResults.affordabilityCheck == 'Passed: false'">
+  <h1>The mortgage request failed due to affordability check</h1>
+</div>
 </ion-content>
