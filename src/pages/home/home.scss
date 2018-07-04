@@ -4,3 +4,19 @@ page-home {
 
 }
 }
+
+.money-input input{
+    width: calc(100% - 100px) !important;
+}
+
+.money-input:before {
+    content: '£   ';
+}
+
+.years-input input{
+    width: 25px !important;
+}
+
+.years-input:after {
+    content: ' years'
+}

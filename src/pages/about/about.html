@@ -1,48 +1,66 @@
-<ion-header><a href="http://hmlr-ds-landingscreen.eu-gb.mybluemix.net/#/LandingIM"><button class = "buttonhome"><ion-icon ios="ios-home" md="md-home">Restart Demo</ion-icon></button></a>
-  <ion-navbar>
-    <ion-title>
-      About
-    </ion-title>
-    
-    
-  </ion-navbar>
-</ion-header>
 
-<ion-content padding>
+<ion-content padding-horizontal style="margin-top: 80px;">
 
   <ion-list>
   <ion-item>
-    <ion-icon name="clock" item-start></ion-icon>
+    <ion-thumbnail item-start>
+      <img src="../../assets/bankicon/_property check_.png">
+      <br>
+      <p class="result">{{checkResults.propertyCheck}}</p>
+    </ion-thumbnail>
     <h2>Property Check</h2>
-    <h3 class="info">Checks the property for ﬂood risk, coal mining, location, local land charges etc</h3>
-    <h3>{{checkResults.propertyCheck}}</h3>
+    <h3 class="info">We'll look for any:</h3>
+    <h3>
+      <ul>
+        <li>flood risks</li>
+        <li>coal mining in the area</li>
+        <li>local land charges on the property</li>
+        <li>other risks</li>
+      </ul>
+    </h3>
   </ion-item>
-      <ion-item>
-    <ion-icon name="clock" item-start></ion-icon>
-      Identity Check
-      <h3 class="info">Checks the identity of Emma. Checks such as Verify could be used to check driving license, passport, national insurance</h3>
-        <h3>{{checkResults.identityCheck}}</h3>
+  <ion-item>
+    <ion-thumbnail item-start>
+      <img src="../../assets/bankicon/_identity_ check.png">
+      <br>
+      <p class="result">{{checkResults.identityCheck}}</p>
+    </ion-thumbnail>
+    <h2>Identity Check</h2>
+    <h3 class="info">We'll use your identity documents to confirm your identity.</h3>
   </ion-item>
-      <ion-item>
-    <ion-icon name="clock" item-start></ion-icon>
-      Affordability
-      <h3 class="info">Checks Emma's bank information to conﬁrm she can afford the mortgage</h3>
-        <h3>{{checkResults.affordabilityCheck}}</h3>
+  <ion-item>
+    <ion-thumbnail item-start>
+        <img src="../../assets/bankicon/_affordability_ icon.png">
+        <br>
+        <p class="result">{{checkResults.affordabilityCheck}}</p>
+    </ion-thumbnail>
+      <h2>Affordability</h2>
+      <h3 class="info">We’ll check your bank account information to confirm <br>
+        that you can afford the mortgage repayments.</h3>
   </ion-item>
-      <ion-item>
-    <ion-icon name="clock" item-start></ion-icon>
-      Credit Check
-      <h3 class="info">Checks credit data for Emma</h3>
-        <h3>{{checkResults.creditCheck}}</h3>
+  <ion-item>
+    <ion-thumbnail item-start>
+      <img src="../../assets/bankicon/_credit_ check.png">
+      <br>
+      <p class="result">{{checkResults.creditCheck}}</p>
+    </ion-thumbnail>
+    <h2>Credit Check</h2>
+    <h3 class="info">We’ll use Experian, or another third party, to check your
+        current credit rating.
+    </h3>
   </ion-item>
-      <ion-item>
-    <ion-icon name="clock" item-start></ion-icon>
-      Earnings Check
-      <h3 class="info"> A check is performed with HMRC on earnings against Emma's P60 including tax and amount earned in the year</h3>
-        <h3>{{checkResults.earningsCheck}}</h3>
+  <ion-item>
+    <ion-thumbnail item-start>
+      <img src="../../assets/bankicon/_earnings_ icon.png">
+      <br>
+      <p class="result">{{checkResults.earningsCheck}}</p>
+    </ion-thumbnail>
+    <h2>Earnings Check</h2>
+    <h3 class="info">We'll perform a check with HMRC on earnings against your P60 <br>
+       including tax and the amount you’ve earned in the year.</h3>
   </ion-item>
 </ion-list>
-<div class="info1" *ngIf = "checkResults.affordabilityCheck == 'Passed: false'">
+<div class="info1" *ngIf = "checkResults.affordabilityCheck != 'Pass'">
   <h1>The mortgage request failed due to affordability check</h1>
 </div>
 </ion-content>

@@ -23,7 +23,7 @@ export class AboutPage {
      this.makePostRequest("https://hmlr-ds-instantmortgageapi.eu-gb.mybluemix.net/checks/property",{"uprn":"79984"},function (data, context) {
         // this.makePostRequest("http://localhost:4000/checks/property",{"uprn":"79984"},function (data, context) {
      if (data.passed != true) { context.stop = true;}
-      context.checkResults.propertyCheck = "Passed: " +  data.passed;
+      context.checkResults.propertyCheck = "Pass";
     });
 
 
@@ -33,7 +33,7 @@ export class AboutPage {
             {"":""},
             function (data, context) {
             if (data.passed != true) { context.stop = true;}
-                context.checkResults.identityCheck = "Passed: " +  data.passed;
+                context.checkResults.identityCheck = "Pass";
             })
 
             },1000,this);
@@ -48,7 +48,7 @@ export class AboutPage {
             "loan_amount":stthis.md.getLoanAmount()},
             function (data, context) {
                 if (data.passed != true) { context.stop = true;}
-                context.checkResults.affordabilityCheck = "Passed: " +  data.passed;
+                context.checkResults.affordabilityCheck = "Pass";
             })
 
             },2000,this);
@@ -59,7 +59,7 @@ export class AboutPage {
             {"person_id":"100000013"},
             function (data, context) {
             if (data.passed != true) { context.stop = true;}
-                context.checkResults.creditCheck = "Passed: " +  data.passed;
+                context.checkResults.creditCheck = "Pass";
             })
 
             },3000,this);
@@ -71,16 +71,16 @@ export class AboutPage {
             {"person_id":"100000013"},
             function (data, context) {
             if (data.passed != true) { context.stop = true;}
-                context.checkResults.earningsCheck = "Passed: " +  data.passed;
+                context.checkResults.earningsCheck = "Pass";
             })
 
             },4000,this);
 
-            setTimeout(function(stthis) {
-                if (!stthis.stop) {
-                stthis.navCtrl.push(ContactPage);
-                }
-            },5000,this);
+            // setTimeout(function(stthis) {
+            //     if (!stthis.stop) {
+            //     stthis.navCtrl.push(ContactPage);
+            //     }
+            // },5000,this);
 
   }
 

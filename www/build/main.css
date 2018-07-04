@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .ion-ios-add:before {
   content: "\f102";
 }
@@ -8625,39 +8626,39 @@ ion-app.ios [margin-horizontal] .scroll-content {
 
 ion-app.md [padding],
 ion-app.md [padding] .scroll-content {
-  padding: 16px;
+  padding: 250px;
 }
 
 ion-app.md [padding-top],
 ion-app.md [padding-top] .scroll-content {
-  padding-top: 16px;
+  padding-top: 250px;
 }
 
 ion-app.md [padding-left],
 ion-app.md [padding-left] .scroll-content {
-  padding-left: 16px;
+  padding-left: 250px;
 }
 
 ion-app.md [padding-right],
 ion-app.md [padding-right] .scroll-content {
-  padding-right: 16px;
+  padding-right: 250px;
 }
 
 ion-app.md [padding-bottom],
 ion-app.md [padding-bottom] .scroll-content {
-  padding-bottom: 16px;
+  padding-bottom: 250px;
 }
 
 ion-app.md [padding-vertical],
 ion-app.md [padding-vertical] .scroll-content {
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding-top: 250px;
+  padding-bottom: 250px;
 }
 
 ion-app.md [padding-horizontal],
 ion-app.md [padding-horizontal] .scroll-content {
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 250px;
+  padding-right: 250px;
 }
 
 ion-app.md [margin],
@@ -25134,7 +25135,7 @@ ion-navbar.toolbar {
 .md ion-menu > .menu-inner > ion-content.statusbar-padding:first-child[padding-top] .scroll-content,
 .md ion-menu > .menu-inner > ion-header > ion-content.statusbar-padding:first-child[padding] .scroll-content,
 .md ion-menu > .menu-inner > ion-header > ion-content.statusbar-padding:first-child[padding-top] .scroll-content {
-  padding-top: calc(16px + 20px);
+  padding-top: calc(250px + 20px);
 }
 
 @media only screen and (max-width: 767px) {
@@ -25147,7 +25148,7 @@ ion-navbar.toolbar {
   }
   .md .modal-wrapper > .ion-page > ion-header > ion-content.statusbar-padding:first-child[padding] .scroll-content,
   .md .modal-wrapper > .ion-page > ion-header > ion-content.statusbar-padding:first-child[padding-top] .scroll-content {
-    padding-top: calc(16px + 20px);
+    padding-top: calc(250px + 20px);
   }
 }
 
@@ -25199,6 +25200,79 @@ ion-navbar.toolbar {
   }
 }
 
+hr {
+  border-top: 1px solid black;
+}
+
+p {
+  margin: 0;
+}
+
+.header {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  /* line-height: 80px; */
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+  padding: 0 200px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid black;
+}
+
+.title-section {
+  height: 100%;
+  float: left;
+}
+
+.title-main {
+  font-size: 1.3em;
+  line-height: 80px;
+  color: #000;
+  text-decoration: none;
+}
+
+.title-sub {
+  color: #000;
+  font-size: 1.3em;
+  text-decoration: none;
+  font-weight: 200;
+}
+
+.title-sub-section {
+  height: 100%;
+  float: left;
+  padding-top: 20px;
+}
+
+.subtitle {
+  font-size: 1em;
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.logo {
+  height: 100%;
+  float: right;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.logo img {
+  vertical-align: middle;
+  padding-top: 12px;
+}
+
 page-about .info {
   color: gray;
 }
@@ -25212,6 +25286,12 @@ page-about .info1 {
   color: red;
 }
 
+.result {
+  text-align: center;
+  color: green !important;
+  font-weight: bold;
+}
+
 page-contact .buttonhome {
   float: right;
 }
@@ -25222,6 +25302,22 @@ page-contact a {
 
 page-home .buttonhome {
   float: right;
+}
+
+.money-input input {
+  width: calc(100% - 100px) !important;
+}
+
+.money-input:before {
+  content: '£   ';
+}
+
+.years-input input {
+  width: 25px !important;
+}
+
+.years-input:after {
+  content: ' years';
 }
 
 page-login .details {

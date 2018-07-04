@@ -13,6 +13,7 @@ import{LoginPage} from '../pages/login/login';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { MortgageDetailsProvider } from '../providers/mortgage-details/mortgage-details';
+import { DsHeaderComponent } from '../components/ds-header/ds-header';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { MortgageDetailsProvider } from '../providers/mortgage-details/mortgage-
     ContactPage,
     HomePage,
     TabsPage,
-    LoginPage
+    LoginPage,
+    DsHeaderComponent
   ],
   imports: [
     HttpModule,

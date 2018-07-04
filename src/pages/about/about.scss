@@ -1,13 +1,19 @@
 page-about {
-.info{
-    color: gray;
-}
-.buttonhome{
-    float: right;
+    .info{
+        color: gray;
+    }
+    .buttonhome{
+        float: right;
 
+    }
+    .info1{
+        text-align: center;
+        color: red;
+    }
 }
-.info1{
+
+.result {
     text-align: center;
-    color: red;
-}
+    color: green !important;
+    font-weight: bold;
 }
