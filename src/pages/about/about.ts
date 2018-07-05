@@ -1,30 +1,30 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { Http } from '@angular/http';
 import { ContactPage } from '../contact/contact';
 import { MortgageDetailsProvider } from '../../providers/mortgage-details/mortgage-details';
+import { Content } from 'ionic-angular';
 
 @Component({
   selector: 'page-about',
   templateUrl: 'about.html'
 })
 export class AboutPage {
-
-
- checkResults = {propertyCheck: '', identityCheck: '',affordabilityCheck:'', creditCheck:'',earningsCheck:''}
-
-  constructor(public navCtrl: NavController, public http: Http, public md: MortgageDetailsProvider ) {
-      this.startChecks();
-  }
+    @ViewChild(Content) content: Content;
+    checkResults = {propertyCheck: '', identityCheck: '',affordabilityCheck:'', creditCheck:'',earningsCheck:''}
+    
+    constructor(public navCtrl: NavController, public http: Http, public md: MortgageDetailsProvider ) {
+        this.startChecks();
+    }
 
     startChecks() {
-
-    var stop = false;
-     this.makePostRequest("https://hmlr-ds-instantmortgageapi.eu-gb.mybluemix.net/checks/property",{"uprn":"79984"},function (data, context) {
-        // this.makePostRequest("http://localhost:4000/checks/property",{"uprn":"79984"},function (data, context) {
-     if (data.passed != true) { context.stop = true;}
-      context.checkResults.propertyCheck = "Pass";
-    });
+        var stop = false;
+        this.makePostRequest("https://hmlr-ds-instantmortgageapi.eu-gb.mybluemix.net/checks/property",{"uprn":"79984"},function (data, context) {
+            // this.makePostRequest("http://localhost:4000/checks/property",{"uprn":"79984"},function (data, context) {
+        if (data.passed != true) { context.stop = true;}
+            context.checkResults.propertyCheck = "Pass";
+            context.content.resize();
+        });
 
 
      setTimeout(function(stthis) {
@@ -34,6 +34,7 @@ export class AboutPage {
             function (data, context) {
             if (data.passed != true) { context.stop = true;}
                 context.checkResults.identityCheck = "Pass";
+                context.content.resize();
             })
 
             },1000,this);
@@ -49,6 +50,7 @@ export class AboutPage {
             function (data, context) {
                 if (data.passed != true) { context.stop = true;}
                 context.checkResults.affordabilityCheck = "Pass";
+                context.content.resize();
             })
 
             },2000,this);
@@ -60,31 +62,37 @@ export class AboutPage {
             function (data, context) {
             if (data.passed != true) { context.stop = true;}
                 context.checkResults.creditCheck = "Pass";
+                context.content.resize();
             })
 
-            },3000,this);
+        },3000,this);
 
-
-             setTimeout(function(stthis) {
+            setTimeout(function(stthis) {
         stthis.makePostRequest("https://hmlr-ds-instantmortgageapi.eu-gb.mybluemix.net/checks/earnings",
         // stthis.makePostRequest("http://localhost:4000/checks/earnings",
             {"person_id":"100000013"},
             function (data, context) {
             if (data.passed != true) { context.stop = true;}
                 context.checkResults.earningsCheck = "Pass";
+                context.content.resize();
             })
+        },4000,this);
 
-            },4000,this);
 
             // setTimeout(function(stthis) {
             //     if (!stthis.stop) {
             //     stthis.navCtrl.push(ContactPage);
             //     }
             // },5000,this);
-
   }
 
+  loadNextPage() {
+      this.navCtrl.push(ContactPage);
+  }
 
+  resizeContent () {
+      this.content.resize();
+  }
 
   makePostRequest(url,param,callback) {
         this.http.post(url,

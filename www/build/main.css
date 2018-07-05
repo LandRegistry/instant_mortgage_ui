@@ -25286,10 +25286,26 @@ page-about .info1 {
   color: red;
 }
 
+page-about .item-block {
+  max-height: 120px;
+}
+
+page-about .small-block {
+  max-height: 90px;
+}
+
 .result {
   text-align: center;
   color: green !important;
   font-weight: bold;
+}
+
+.scroll-content {
+  height: 100%;
+}
+
+.fixed-content {
+  height: 100%;
 }
 
 page-contact .buttonhome {

@@ -1,66 +1,62 @@
+<ds-header></ds-header>
 
-<ion-content padding-horizontal style="margin-top: 80px;">
+<ion-content has-header padding-horizontal style="margin-top: 90px;">
 
   <ion-list>
-  <ion-item>
-    <ion-thumbnail item-start>
-      <img src="../../assets/bankicon/_property check_.png">
-      <br>
-      <p class="result">{{checkResults.propertyCheck}}</p>
-    </ion-thumbnail>
-    <h2>Property Check</h2>
-    <h3 class="info">We'll look for any:</h3>
-    <h3>
-      <ul>
-        <li>flood risks</li>
-        <li>coal mining in the area</li>
-        <li>local land charges on the property</li>
-        <li>other risks</li>
-      </ul>
-    </h3>
-  </ion-item>
-  <ion-item>
-    <ion-thumbnail item-start>
-      <img src="../../assets/bankicon/_identity_ check.png">
-      <br>
-      <p class="result">{{checkResults.identityCheck}}</p>
-    </ion-thumbnail>
-    <h2>Identity Check</h2>
-    <h3 class="info">We'll use your identity documents to confirm your identity.</h3>
-  </ion-item>
-  <ion-item>
-    <ion-thumbnail item-start>
+    <ion-item>
+      <ion-thumbnail item-start>
+        <img src="../../assets/bankicon/_property check_.png">
+      </ion-thumbnail>
+      <h2>Property Check</h2>
+      <h3 class="info">We'll look for any: <br>
+        &nbsp;&#8226; flood risks <br>
+        &nbsp;&#8226; coal mining in the area <br>
+        &nbsp;&#8226; local land charges on the property <br>
+        &nbsp;&#8226; other risks <br>
+      </h3>
+      <p item-end class="result">{{checkResults.propertyCheck}}</p>
+    </ion-item>
+    <ion-item class="small-block">
+      <ion-thumbnail item-start>
+        <img src="../../assets/bankicon/_identity_ check.png">
+      </ion-thumbnail>
+      <h2>Identity Check</h2>
+      <h3 class="info">We'll use your identity documents to confirm your identity.</h3>
+      <p item-end class="result">{{checkResults.identityCheck}}</p>
+    </ion-item>
+    <ion-item class="small-block">
+      <ion-thumbnail item-start>
         <img src="../../assets/bankicon/_affordability_ icon.png">
-        <br>
-        <p class="result">{{checkResults.affordabilityCheck}}</p>
-    </ion-thumbnail>
-      <h2>Affordability</h2>
-      <h3 class="info">We’ll check your bank account information to confirm <br>
-        that you can afford the mortgage repayments.</h3>
-  </ion-item>
-  <ion-item>
-    <ion-thumbnail item-start>
-      <img src="../../assets/bankicon/_credit_ check.png">
-      <br>
-      <p class="result">{{checkResults.creditCheck}}</p>
-    </ion-thumbnail>
-    <h2>Credit Check</h2>
-    <h3 class="info">We’ll use Experian, or another third party, to check your
+      </ion-thumbnail>
+        <h2>Affordability</h2>
+        <h3 class="info">We’ll check your bank account information to confirm that you can afford <br> the mortgage repayments.</h3>
+        <p item-end class="result">{{checkResults.affordabilityCheck}}</p>
+    </ion-item>
+    <ion-item class="small-block">
+      <ion-thumbnail item-start>
+        <img style="padding-top: 10px;" src="../../assets/bankicon/_credit_ check.png">
+      </ion-thumbnail>
+      <h2>Credit Check</h2>
+      <h3 class="info">We’ll use Experian, or another third party, to check your
         current credit rating.
-    </h3>
-  </ion-item>
-  <ion-item>
-    <ion-thumbnail item-start>
-      <img src="../../assets/bankicon/_earnings_ icon.png">
-      <br>
-      <p class="result">{{checkResults.earningsCheck}}</p>
-    </ion-thumbnail>
-    <h2>Earnings Check</h2>
-    <h3 class="info">We'll perform a check with HMRC on earnings against your P60 <br>
-       including tax and the amount you’ve earned in the year.</h3>
-  </ion-item>
-</ion-list>
-<div class="info1" *ngIf = "checkResults.affordabilityCheck != 'Pass'">
-  <h1>The mortgage request failed due to affordability check</h1>
-</div>
+      </h3>
+      <p item-end class="result">{{checkResults.creditCheck}}</p>
+    </ion-item>
+    <!-- <ion-item>
+      <ion-thumbnail item-start>
+        <img src="../../assets/bankicon/_earnings_ icon.png">
+        <br>
+        <p class="result">{{checkResults.earningsCheck}}</p>
+      </ion-thumbnail>
+      <h2>Earnings Check</h2>
+      <h3 class="info">We'll perform a check with HMRC on earnings against your P60 <br>
+        including tax and the amount you’ve earned in the year.</h3>
+    </ion-item> -->
+  </ion-list>
+  <div class="info1" *ngIf = "checkResults.affordabilityCheck == 'Fail'">
+    <h1>The mortgage request failed due to affordability check</h1>
+  </div>
+
+  <button ion-button (click)="loadNextPage()">Continue</button>
+
 </ion-content>
