@@ -5,7 +5,7 @@
   <ion-list>
     <ion-item>
       <ion-thumbnail item-start>
-        <img src="../../assets/bankicon/_property check_.png">
+        <img src="{{ checkResults.propertyCheck ? '../../assets/bankicon/_property check pass_.png' : '../../assets/bankicon/_property check_.png'}}">
       </ion-thumbnail>
       <h2>Property Check</h2>
       <h3 class="info">We'll look for any: <br>
@@ -18,7 +18,7 @@
     </ion-item>
     <ion-item class="small-block">
       <ion-thumbnail item-start>
-        <img src="../../assets/bankicon/_identity_ check.png">
+        <img src="{{ checkResults.identityCheck ? '../../assets/bankicon/_identity check pass_.png' : '../../assets/bankicon/_identity_ check.png' }}">
       </ion-thumbnail>
       <h2>Identity Check</h2>
       <h3 class="info">We'll use your identity documents to confirm your identity.</h3>
@@ -26,7 +26,7 @@
     </ion-item>
     <ion-item class="small-block">
       <ion-thumbnail item-start>
-        <img src="../../assets/bankicon/_affordability_ icon.png">
+        <img src="{{ checkResults.affordabilityCheck ? '../../assets/bankicon/_affordability pass_.png' : '../../assets/bankicon/_affordability_ icon.png' }}">
       </ion-thumbnail>
         <h2>Affordability</h2>
         <h3 class="info">We’ll check your bank account information to confirm that you can afford <br> the mortgage repayments.</h3>
@@ -34,7 +34,7 @@
     </ion-item>
     <ion-item class="small-block">
       <ion-thumbnail item-start>
-        <img style="padding-top: 10px;" src="../../assets/bankicon/_credit_ check.png">
+        <img style="padding-top: 10px;" src="{{ checkResults.creditCheck ? '../../assets/bankicon/_credit check pass_.png' : '../../assets/bankicon/_credit_ check.png' }}">
       </ion-thumbnail>
       <h2>Credit Check</h2>
       <h3 class="info">We’ll use Experian, or another third party, to check your

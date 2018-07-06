@@ -1,6 +1,6 @@
 webpackJsonp([1],{
 
-/***/ 110:
+/***/ 111:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -13,11 +13,11 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 110;
+webpackEmptyAsyncContext.id = 111;
 
 /***/ }),
 
-/***/ 152:
+/***/ 153:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -37,19 +37,19 @@ function webpackAsyncContext(req) {
 webpackAsyncContext.keys = function webpackAsyncContextKeys() {
 	return Object.keys(map);
 };
-webpackAsyncContext.id = 152;
+webpackAsyncContext.id = 153;
 module.exports = webpackAsyncContext;
 
 /***/ }),
 
-/***/ 196:
+/***/ 197:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TabsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__about_about__ = __webpack_require__(78);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__contact_contact__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__contact_contact__ = __webpack_require__(79);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__home_home__ = __webpack_require__(77);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -84,51 +84,13 @@ TabsPage = __decorate([
 
 /***/ }),
 
-/***/ 197:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ContactPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(27);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-var ContactPage = (function () {
-    function ContactPage(navCtrl) {
-        this.navCtrl = navCtrl;
-    }
-    ContactPage.prototype.approved = function (event) {
-        console.log("Approved", event);
-    };
-    return ContactPage;
-}());
-ContactPage = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-contact',template:/*ion-inline-start:"/Users/CS040MG/Projects/digital-street/PoCs/instant_mortgage_ui/src/pages/contact/contact.html"*/'<ds-header></ds-header>\n\n<ion-content padding-horizontal style="margin-top: 80px;">\n  <ion-list>\n    <ion-list-header>Based on the outcome of our checks, we\'ve found you <strong>3</strong> suitable mortgages for this property.</ion-list-header>\n<ion-list>\n  <ion-item-sliding>\n    <ion-item>\n    <ion-thumbnail item-start>\n      <img src="../../assets/bankicon/winter bank.png">\n    </ion-thumbnail>\n      <h2>Winter Bank</h2>\n      <h3><strong>3</strong> year fixed at <strong>2.5%</strong></h3>\n      <a href="http://hmlr-ds-landingscreen.eu-gb.mybluemix.net/#/"><button ion-button clear item-end style="text-transform: none;">Make offer on property</button></a>\n    </ion-item>\n    <ion-item-options side="right">\n      <button ion-button color="primary">\n        <ion-icon name="mail" (click)="approved($event)"></ion-icon>\n        Approve\n      </button>\n    </ion-item-options>\n  </ion-item-sliding>\n\n    <ion-item-sliding>\n  <ion-item>\n    <ion-thumbnail item-start>\n      <img src="../../assets/bankicon/piggy bank.png">\n    </ion-thumbnail>\n    <h2>Piggy Bank</h2>\n    <h3><strong>3</strong> year fixed at <strong>2%</strong></h3>\n    <a  href="http://hmlr-ds-landingscreen.eu-gb.mybluemix.net/#/"><button ion-button clear item-end style="text-transform: none;">Make offer on property</button></a>\n  </ion-item>\n          <ion-item-options side="right">\n      <button ion-button color="primary">\n        <ion-icon name="mail" (click)="approved($event)"></ion-icon>\n        Approve\n      </button>\n    </ion-item-options>\n        </ion-item-sliding>\n\n      <ion-item-sliding>\n    <ion-item>\n    <ion-thumbnail item-start>\n      <img src="../../assets/bankicon/rose bank.png">\n    </ion-thumbnail>\n    <h2>Rose Bank</h2>\n    <h3><strong>3</strong> year variable at <strong>1.8%</strong></h3>\n    <a  href="http://hmlr-ds-landingscreen.eu-gb.mybluemix.net/#/"><button ion-button clear item-end style="text-transform: none;">Make offer on property</button></a>\n  </ion-item>\n                  <ion-item-options side="right">\n      <button ion-button color="primary">\n        <ion-icon name="mail" (click)="approved($event)"></ion-icon>\n        Approve\n      </button>\n    </ion-item-options>\n  </ion-item-sliding>\n\n  <!-- <ion-item-sliding>\n    <ion-item>\n    <ion-thumbnail item-start>\n      <img src="../../assets/bankicon/thames bank.png">\n    </ion-thumbnail>\n    <h2>Thames Bank 3 year Variable Rate at 2.0%</h2>\n    <a  href="http://hmlr-ds-landingscreen.eu-gb.mybluemix.net/#/"><button ion-button clear item-end style="text-transform: none;">Make offer on property</button></a>\n  </ion-item>\n    <ion-item-options side="right">\n      <button ion-button color="primary">\n        <ion-icon name="mail" (click)="approved($event)"></ion-icon>\n        Approve\n      </button>\n    </ion-item-options>\n  </ion-item-sliding> -->\n  <!-- <ion-item-sliding>\n      <ion-item>\n    <ion-thumbnail item-start>\n      <img src="../../assets/bankicon/oak bank.png">\n    </ion-thumbnail>\n    <h2>Oak Bank 2 year Fixed Rate at 3.0%</h2>\n    <a  href="http://hmlr-ds-landingscreen.eu-gb.mybluemix.net/#/"><button ion-button clear item-end style="text-transform: none;">Make offer on property</button></a>\n  </ion-item>\n              <ion-item-options side="right">\n      <button ion-button color="primary">\n        <ion-icon name="mail" (click)="approved($event)"></ion-icon>\n        Approve\n      </button>\n    </ion-item-options>\n  </ion-item-sliding> -->\n</ion-list>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"/Users/CS040MG/Projects/digital-street/PoCs/instant_mortgage_ui/src/pages/contact/contact.html"*/
-    }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */]])
-], ContactPage);
-
-//# sourceMappingURL=contact.js.map
-
-/***/ }),
-
 /***/ 198:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(24);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(77);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(40);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -222,18 +184,18 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__(25);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(40);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ionic_angular__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ionic_angular__ = __webpack_require__(24);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_component__ = __webpack_require__(259);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_about_about__ = __webpack_require__(78);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_contact_contact__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_contact_contact__ = __webpack_require__(79);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_home_home__ = __webpack_require__(77);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_tabs_tabs__ = __webpack_require__(196);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_tabs_tabs__ = __webpack_require__(197);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_login_login__ = __webpack_require__(198);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_native_status_bar__ = __webpack_require__(192);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ionic_native_splash_screen__ = __webpack_require__(195);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__providers_mortgage_details_mortgage_details__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_native_status_bar__ = __webpack_require__(193);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ionic_native_splash_screen__ = __webpack_require__(196);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__providers_mortgage_details_mortgage_details__ = __webpack_require__(80);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__components_ds_header_ds_header__ = __webpack_require__(268);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -308,10 +270,10 @@ AppModule = __decorate([
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(192);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(195);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_tabs_tabs__ = __webpack_require__(196);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(193);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(196);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_tabs_tabs__ = __webpack_require__(197);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -395,9 +357,9 @@ DsHeaderComponent = __decorate([
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(24);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__about_about__ = __webpack_require__(78);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_mortgage_details_mortgage_details__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_mortgage_details_mortgage_details__ = __webpack_require__(80);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -444,10 +406,10 @@ HomePage = __decorate([
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AboutPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(24);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(40);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__contact_contact__ = __webpack_require__(197);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_mortgage_details_mortgage_details__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__contact_contact__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_mortgage_details_mortgage_details__ = __webpack_require__(80);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -558,7 +520,7 @@ __decorate([
 ], AboutPage.prototype, "content", void 0);
 AboutPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-about',template:/*ion-inline-start:"/Users/CS040MG/Projects/digital-street/PoCs/instant_mortgage_ui/src/pages/about/about.html"*/'<ds-header></ds-header>\n\n<ion-content has-header padding-horizontal style="margin-top: 90px;">\n\n  <ion-list>\n    <ion-item>\n      <ion-thumbnail item-start>\n        <img src="../../assets/bankicon/_property check_.png">\n      </ion-thumbnail>\n      <h2>Property Check</h2>\n      <h3 class="info">We\'ll look for any: <br>\n        &nbsp;&#8226; flood risks <br>\n        &nbsp;&#8226; coal mining in the area <br>\n        &nbsp;&#8226; local land charges on the property <br>\n        &nbsp;&#8226; other risks <br>\n      </h3>\n      <p item-end class="result">{{checkResults.propertyCheck}}</p>\n    </ion-item>\n    <ion-item class="small-block">\n      <ion-thumbnail item-start>\n        <img src="../../assets/bankicon/_identity_ check.png">\n      </ion-thumbnail>\n      <h2>Identity Check</h2>\n      <h3 class="info">We\'ll use your identity documents to confirm your identity.</h3>\n      <p item-end class="result">{{checkResults.identityCheck}}</p>\n    </ion-item>\n    <ion-item class="small-block">\n      <ion-thumbnail item-start>\n        <img src="../../assets/bankicon/_affordability_ icon.png">\n      </ion-thumbnail>\n        <h2>Affordability</h2>\n        <h3 class="info">We’ll check your bank account information to confirm that you can afford <br> the mortgage repayments.</h3>\n        <p item-end class="result">{{checkResults.affordabilityCheck}}</p>\n    </ion-item>\n    <ion-item class="small-block">\n      <ion-thumbnail item-start>\n        <img style="padding-top: 10px;" src="../../assets/bankicon/_credit_ check.png">\n      </ion-thumbnail>\n      <h2>Credit Check</h2>\n      <h3 class="info">We’ll use Experian, or another third party, to check your\n        current credit rating.\n      </h3>\n      <p item-end class="result">{{checkResults.creditCheck}}</p>\n    </ion-item>\n    <!-- <ion-item>\n      <ion-thumbnail item-start>\n        <img src="../../assets/bankicon/_earnings_ icon.png">\n        <br>\n        <p class="result">{{checkResults.earningsCheck}}</p>\n      </ion-thumbnail>\n      <h2>Earnings Check</h2>\n      <h3 class="info">We\'ll perform a check with HMRC on earnings against your P60 <br>\n        including tax and the amount you’ve earned in the year.</h3>\n    </ion-item> -->\n  </ion-list>\n  <div class="info1" *ngIf = "checkResults.affordabilityCheck == \'Fail\'">\n    <h1>The mortgage request failed due to affordability check</h1>\n  </div>\n\n  <button ion-button (click)="loadNextPage()">Continue</button>\n\n</ion-content>\n'/*ion-inline-end:"/Users/CS040MG/Projects/digital-street/PoCs/instant_mortgage_ui/src/pages/about/about.html"*/
+        selector: 'page-about',template:/*ion-inline-start:"/Users/CS040MG/Projects/digital-street/PoCs/instant_mortgage_ui/src/pages/about/about.html"*/'<ds-header></ds-header>\n\n<ion-content has-header padding-horizontal style="margin-top: 90px;">\n\n  <ion-list>\n    <ion-item>\n      <ion-thumbnail item-start>\n        <img src="{{ checkResults.propertyCheck ? \'../../assets/bankicon/_property check pass_.png\' : \'../../assets/bankicon/_property check_.png\'}}">\n      </ion-thumbnail>\n      <h2>Property Check</h2>\n      <h3 class="info">We\'ll look for any: <br>\n        &nbsp;&#8226; flood risks <br>\n        &nbsp;&#8226; coal mining in the area <br>\n        &nbsp;&#8226; local land charges on the property <br>\n        &nbsp;&#8226; other risks <br>\n      </h3>\n      <p item-end class="result">{{checkResults.propertyCheck}}</p>\n    </ion-item>\n    <ion-item class="small-block">\n      <ion-thumbnail item-start>\n        <img src="{{ checkResults.identityCheck ? \'../../assets/bankicon/_identity check pass_.png\' : \'../../assets/bankicon/_identity_ check.png\' }}">\n      </ion-thumbnail>\n      <h2>Identity Check</h2>\n      <h3 class="info">We\'ll use your identity documents to confirm your identity.</h3>\n      <p item-end class="result">{{checkResults.identityCheck}}</p>\n    </ion-item>\n    <ion-item class="small-block">\n      <ion-thumbnail item-start>\n        <img src="{{ checkResults.affordabilityCheck ? \'../../assets/bankicon/_affordability pass_.png\' : \'../../assets/bankicon/_affordability_ icon.png\' }}">\n      </ion-thumbnail>\n        <h2>Affordability</h2>\n        <h3 class="info">We’ll check your bank account information to confirm that you can afford <br> the mortgage repayments.</h3>\n        <p item-end class="result">{{checkResults.affordabilityCheck}}</p>\n    </ion-item>\n    <ion-item class="small-block">\n      <ion-thumbnail item-start>\n        <img style="padding-top: 10px;" src="{{ checkResults.creditCheck ? \'../../assets/bankicon/_credit check pass_.png\' : \'../../assets/bankicon/_credit_ check.png\' }}">\n      </ion-thumbnail>\n      <h2>Credit Check</h2>\n      <h3 class="info">We’ll use Experian, or another third party, to check your\n        current credit rating.\n      </h3>\n      <p item-end class="result">{{checkResults.creditCheck}}</p>\n    </ion-item>\n    <!-- <ion-item>\n      <ion-thumbnail item-start>\n        <img src="../../assets/bankicon/_earnings_ icon.png">\n        <br>\n        <p class="result">{{checkResults.earningsCheck}}</p>\n      </ion-thumbnail>\n      <h2>Earnings Check</h2>\n      <h3 class="info">We\'ll perform a check with HMRC on earnings against your P60 <br>\n        including tax and the amount you’ve earned in the year.</h3>\n    </ion-item> -->\n  </ion-list>\n  <div class="info1" *ngIf = "checkResults.affordabilityCheck == \'Fail\'">\n    <h1>The mortgage request failed due to affordability check</h1>\n  </div>\n\n  <button ion-button (click)="loadNextPage()">Continue</button>\n\n</ion-content>\n'/*ion-inline-end:"/Users/CS040MG/Projects/digital-street/PoCs/instant_mortgage_ui/src/pages/about/about.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__angular_http__["b" /* Http */], __WEBPACK_IMPORTED_MODULE_4__providers_mortgage_details_mortgage_details__["a" /* MortgageDetailsProvider */]])
 ], AboutPage);
@@ -568,6 +530,44 @@ AboutPage = __decorate([
 /***/ }),
 
 /***/ 79:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ContactPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(24);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var ContactPage = (function () {
+    function ContactPage(navCtrl) {
+        this.navCtrl = navCtrl;
+    }
+    ContactPage.prototype.approved = function (event) {
+        console.log("Approved", event);
+    };
+    return ContactPage;
+}());
+ContactPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-contact',template:/*ion-inline-start:"/Users/CS040MG/Projects/digital-street/PoCs/instant_mortgage_ui/src/pages/contact/contact.html"*/'<ds-header></ds-header>\n\n<ion-content padding-horizontal style="margin-top: 80px;">\n  <ion-list>\n    <ion-list-header>Based on the outcome of our checks, we\'ve found you <strong>3</strong> suitable mortgages for this property.</ion-list-header>\n<ion-list>\n  <ion-item-sliding>\n    <ion-item>\n    <ion-thumbnail item-start>\n      <img src="../../assets/bankicon/winter bank.png">\n    </ion-thumbnail>\n      <h2>Winter Bank</h2>\n      <h3><strong>3</strong> year fixed at <strong>2.5%</strong></h3>\n      <a href="http://hmlr-ds-landingscreen.eu-gb.mybluemix.net/#/"><button ion-button clear item-end style="text-transform: none;">Make offer on property</button></a>\n    </ion-item>\n    <ion-item-options side="right">\n      <button ion-button color="primary">\n        <ion-icon name="mail" (click)="approved($event)"></ion-icon>\n        Approve\n      </button>\n    </ion-item-options>\n  </ion-item-sliding>\n\n    <ion-item-sliding>\n  <ion-item>\n    <ion-thumbnail item-start>\n      <img src="../../assets/bankicon/piggy bank.png">\n    </ion-thumbnail>\n    <h2>Piggy Bank</h2>\n    <h3><strong>3</strong> year fixed at <strong>2%</strong></h3>\n    <a  href="http://hmlr-ds-landingscreen.eu-gb.mybluemix.net/#/"><button ion-button clear item-end style="text-transform: none;">Make offer on property</button></a>\n  </ion-item>\n          <ion-item-options side="right">\n      <button ion-button color="primary">\n        <ion-icon name="mail" (click)="approved($event)"></ion-icon>\n        Approve\n      </button>\n    </ion-item-options>\n        </ion-item-sliding>\n\n      <ion-item-sliding>\n    <ion-item>\n    <ion-thumbnail item-start>\n      <img src="../../assets/bankicon/rose bank.png">\n    </ion-thumbnail>\n    <h2>Rose Bank</h2>\n    <h3><strong>3</strong> year variable at <strong>1.8%</strong></h3>\n    <a  href="http://hmlr-ds-landingscreen.eu-gb.mybluemix.net/#/"><button ion-button clear item-end style="text-transform: none;">Make offer on property</button></a>\n  </ion-item>\n                  <ion-item-options side="right">\n      <button ion-button color="primary">\n        <ion-icon name="mail" (click)="approved($event)"></ion-icon>\n        Approve\n      </button>\n    </ion-item-options>\n  </ion-item-sliding>\n\n  <!-- <ion-item-sliding>\n    <ion-item>\n    <ion-thumbnail item-start>\n      <img src="../../assets/bankicon/thames bank.png">\n    </ion-thumbnail>\n    <h2>Thames Bank 3 year Variable Rate at 2.0%</h2>\n    <a  href="http://hmlr-ds-landingscreen.eu-gb.mybluemix.net/#/"><button ion-button clear item-end style="text-transform: none;">Make offer on property</button></a>\n  </ion-item>\n    <ion-item-options side="right">\n      <button ion-button color="primary">\n        <ion-icon name="mail" (click)="approved($event)"></ion-icon>\n        Approve\n      </button>\n    </ion-item-options>\n  </ion-item-sliding> -->\n  <!-- <ion-item-sliding>\n      <ion-item>\n    <ion-thumbnail item-start>\n      <img src="../../assets/bankicon/oak bank.png">\n    </ion-thumbnail>\n    <h2>Oak Bank 2 year Fixed Rate at 3.0%</h2>\n    <a  href="http://hmlr-ds-landingscreen.eu-gb.mybluemix.net/#/"><button ion-button clear item-end style="text-transform: none;">Make offer on property</button></a>\n  </ion-item>\n              <ion-item-options side="right">\n      <button ion-button color="primary">\n        <ion-icon name="mail" (click)="approved($event)"></ion-icon>\n        Approve\n      </button>\n    </ion-item-options>\n  </ion-item-sliding> -->\n</ion-list>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"/Users/CS040MG/Projects/digital-street/PoCs/instant_mortgage_ui/src/pages/contact/contact.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */]])
+], ContactPage);
+
+//# sourceMappingURL=contact.js.map
+
+/***/ }),
+
+/***/ 80:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
