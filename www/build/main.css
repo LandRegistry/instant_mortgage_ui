@@ -25208,6 +25208,10 @@ p {
   margin: 0;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 .header {
   position: relative;
   top: 0;
